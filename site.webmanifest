@@ -1,0 +1,76 @@
+{
+    "name": "Pink Bra Escorts Mumbai - Premium Escort Services",
+    "short_name": "Pink Bra Escorts",
+    "description": "Mumbai's #1 premium escort service with 5000+ verified companions. VIP models, celebrity escorts available 24/7.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fdf2f8",
+    "theme_color": "#e91e63",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en-IN",
+    "dir": "ltr",
+    "categories": ["adult", "entertainment", "lifestyle"],
+    "shortcuts": [
+        {
+            "name": "Book Now",
+            "short_name": "Book",
+            "description": "Book escorts instantly via call or WhatsApp",
+            "url": "/contact.html",
+            "icons": [
+                {
+                    "src": "images/favicon-32x32.png",
+                    "sizes": "32x32",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "VIP Services",
+            "short_name": "VIP",
+            "description": "Browse premium VIP escort services",
+            "url": "/vip-escorts-mumbai.html",
+            "icons": [
+                {
+                    "src": "images/favicon-32x32.png",
+                    "sizes": "32x32",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Gallery",
+            "short_name": "Gallery",
+            "description": "View our escort gallery",
+            "url": "/gallery.html",
+            "icons": [
+                {
+                    "src": "images/favicon-32x32.png",
+                    "sizes": "32x32",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "icons": [
+        {
+            "src": "images/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "prefer_related_applications": false
+}

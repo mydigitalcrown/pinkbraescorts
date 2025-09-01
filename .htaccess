@@ -1,0 +1,33 @@
+# Enable URL Rewriting
+RewriteEngine On
+
+# Specific redirect for index.html to root
+RewriteRule ^index\.html$ / [R=301,L]
+
+# Remove .php extension from URLs and redirect to .html for SEO
+RewriteCond %{THE_REQUEST} /([^.]+)\.php[\s?] [NC]
+RewriteRule ^ /%1.html? [R=301,L]
+
+# Internally rewrite .html requests to .php files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^.]+)\.html$ /$1.php [L]
+
+# Handle specific cases for main pages
+RewriteRule ^services\.html$ services.php [L]
+RewriteRule ^about\.html$ about.php [L]
+RewriteRule ^contact\.html$ contact.php [L]
+RewriteRule ^gallery\.html$ gallery.php [L]
+RewriteRule ^privacy-policy\.html$ privacy-policy.php [L]
+RewriteRule ^terms-of-service\.html$ terms-of-service.php [L]
+
+# Force trailing slash removal for cleaner URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/$ /$1 [R=301,L]
+
+# Custom 404 page
+ErrorDocument 404 /404.html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the "PHP" package.
+# php -- END cPanel-generated handler, do not edit
