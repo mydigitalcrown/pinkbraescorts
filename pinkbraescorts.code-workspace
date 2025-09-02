@@ -1,0 +1,44 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "github.copilot.enable": {
+            "*": true,
+            "plaintext": true,
+            "markdown": true,
+            "php": true,
+            "javascript": true,
+            "css": true,
+            "html": true
+        },
+        "github.copilot.chat.enabled": true,
+        "github.copilot.chat.welcomeMessage": "enabled",
+        "github.copilot.advanced": {
+            "completions.enabled": true,
+            "suggestions.enabled": true,
+            "agent.enabled": true
+        },
+        "editor.inlineSuggest.enabled": true,
+        "files.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/node_modules": true
+        },
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/*.code-search": true
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "github.copilot",
+            "github.copilot-chat",
+            "felixfbecker.php-intellisense",
+            "bmewburn.vscode-intelephense-client"
+        ]
+    }
+}

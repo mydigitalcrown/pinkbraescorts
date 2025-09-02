@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "github.copilot",
+        "github.copilot-chat",
+        "ms-vscode.vscode-json",
+        "bradlc.vscode-tailwindcss",
+        "formulahendry.auto-rename-tag",
+        "ms-ceintl.vscode-language-pack-en",
+        "felixfbecker.php-intellisense",
+        "bmewburn.vscode-intelephense-client"
+    ]
+}
