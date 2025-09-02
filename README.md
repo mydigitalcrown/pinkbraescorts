@@ -116,6 +116,30 @@ The color scheme can be modified in `style.css` by updating the CSS variables:
 - Edge (latest)
 - Mobile browsers
 
+## Development Environment
+
+### Visual Studio Code Setup
+
+This project includes Visual Studio Code configuration for optimal development experience with GitHub Copilot integration.
+
+#### Quick Start
+1. Open the project: `code pinkbraescorts.code-workspace`
+2. Install recommended extensions when prompted
+3. Ensure GitHub Copilot is signed in and active
+
+#### GitHub Copilot "Ask to Agent" Feature
+- Press `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac) for inline chat
+- Use Command Palette: "GitHub Copilot Chat: Open Chat"
+- Right-click selected code and choose "Copilot: Ask Copilot"
+
+For detailed setup instructions, see [COPILOT_SETUP.md](COPILOT_SETUP.md)
+
+#### Included Configurations
+- `.vscode/settings.json` - GitHub Copilot and PHP development settings
+- `.vscode/extensions.json` - Recommended extensions
+- `.vscode/launch.json` - PHP debugging configuration
+- `pinkbraescorts.code-workspace` - Workspace file for VS Code
+
 ## License
 
 This website template is created for Pinbra Escorts. All rights reserved.

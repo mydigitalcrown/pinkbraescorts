@@ -1,0 +1,38 @@
+{
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "php": true,
+        "javascript": true,
+        "css": true,
+        "html": true
+    },
+    "github.copilot.chat.enabled": true,
+    "github.copilot.chat.welcomeMessage": "enabled",
+    "github.copilot.advanced": {
+        "completions.enabled": true,
+        "suggestions.enabled": true,
+        "agent.enabled": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "php.suggest.basic": false,
+    "php.validate.enable": true,
+    "files.associations": {
+        "*.php": "php"
+    },
+    "emmet.includeLanguages": {
+        "php": "html"
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.wordBasedSuggestions": "currentDocument"
+}
