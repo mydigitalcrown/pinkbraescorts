@@ -1,0 +1,84 @@
+{
+  "name": "Pink Bra Call Girls - Premium Escort Services Mumbai",
+  "short_name": "Pink Bra Escorts",
+  "description": "Premium call girl services in Mumbai, Navi Mumbai, and surrounding areas. Elite companions available 24/7 with complete discretion.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ec4899",
+  "orientation": "portrait-primary",
+  "categories": ["lifestyle", "entertainment", "personalized"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon-16x16.svg",
+      "sizes": "16x16",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Call Girls Mumbai",
+      "short_name": "Mumbai",
+      "description": "Premium call girls in Mumbai",
+      "url": "/call-girls-mumbai.php",
+      "icons": [
+        {
+          "src": "/images/locations/mumbai/mumbai-escorts.webp",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Call Girls Navi Mumbai", 
+      "short_name": "Navi Mumbai",
+      "description": "Elite call girls in Navi Mumbai",
+      "url": "/call-girls-navi-mumbai.php",
+      "icons": [
+        {
+          "src": "/images/locations/mumbai/navi-mumbai-escorts.webp",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact", 
+      "description": "Get in touch for premium services",
+      "url": "/contact.php",
+      "icons": [
+        {
+          "src": "/favicon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "handle_links": "preferred"
+}

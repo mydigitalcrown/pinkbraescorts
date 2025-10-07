@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Ambernath Animations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Test the CSS and JS from escorts-ambernath.php -->
+    <div class="min-h-screen bg-gradient-to-br from-pink-50 via-rose-50 to-fuchsia-50 relative overflow-hidden">
+        
+        <!-- Test animated elements -->
+        <div class="fixed inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-10 left-10 w-20 h-20 bg-pink-200 rounded-full opacity-20 hero-animation"></div>
+            <div class="absolute top-32 right-20 w-16 h-16 bg-rose-200 rounded-full opacity-20 hero-animation" style="animation-delay: 1s;"></div>
+            <div class="absolute top-1/2 right-10 w-12 h-12 bg-pink-300 rounded-full opacity-30 premium-rotate"></div>
+        </div>
+
+        <!-- Test cards -->
+        <div class="py-20">
+            <div class="max-w-7xl mx-auto px-4">
+                <h1 class="text-4xl luxury-font font-bold text-gray-800 mb-6 ambernath-glow text-center">
+                    Test Escorts In Ambernath Animations
+                </h1>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="navi-card group cursor-pointer" onclick="trackAmbernathClick('test1')">
+                        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 text-center relative">
+                            <div class="text-4xl mb-4">💎</div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Test Card 1</h3>
+                            <p class="text-gray-600">This should have hover animations</p>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-card group cursor-pointer luxury-pulse" onclick="trackAmbernathClick('test2')">
+                        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 text-center relative">
+                            <div class="text-4xl mb-4">✨</div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Test Card 2</h3>
+                            <p class="text-gray-600">This should pulse</p>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-card group cursor-pointer" onclick="trackAmbernathClick('test3')">
+                        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 text-center relative">
+                            <div class="text-4xl mb-4">🎯</div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Test Card 3</h3>
+                            <p class="text-gray-600">This should transform on hover</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Test form -->
+                <div class="mt-12 max-w-md mx-auto">
+                    <form class="bg-white rounded-2xl p-8 shadow-2xl">
+                        <h3 class="text-2xl luxury-font font-bold text-gray-800 mb-6">Test Form</h3>
+                        
+                        <div class="mb-4">
+                            <input type="text" placeholder="Your Name" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-pink-500 focus:border-transparent">
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-gradient-to-r from-pink-500 to-rose-500 text-white font-bold py-4 px-6 rounded-xl hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-300 luxury-pulse">
+                            Test Submit Button
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Test buttons -->
+                <div class="mt-8 text-center space-x-4">
+                    <a href="tel:+919372662471" class="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-3 rounded-xl font-bold hover:from-pink-600 hover:to-rose-600 transition-all duration-300">
+                        📞 Test Phone Call
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=919372662471" class="bg-green-500 text-white px-8 py-3 rounded-xl font-bold hover:bg-green-600 transition-all duration-300">
+                        💬 Test WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Copy the exact CSS from escorts-ambernath.php -->
+<style>
+/* Import luxury fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Luxury font class */
+.luxury-font {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Body font override */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Ambernath gradient */
+.ambernath-gradient {
+    background: linear-gradient(135deg, #ec4899 0%, #db2777 25%, #be185d 50%, #9d174d 75%, #831843 100%);
+}
+
+/* Navi card hover effects */
+.navi-card {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.navi-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Premium rotate animation */
+.premium-rotate {
+    animation: premiumRotate 3s linear infinite;
+}
+
+@keyframes premiumRotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Luxury pulse animation */
+.luxury-pulse {
+    animation: luxuryPulse 2s ease-in-out infinite;
+}
+
+@keyframes luxuryPulse {
+    0%, 100% { 
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% { 
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+}
+
+/* Ambernath glow effect */
+.ambernath-glow {
+    text-shadow: 0 0 20px rgba(236, 72, 153, 0.3), 0 0 30px rgba(219, 39, 119, 0.2), 0 0 40px rgba(190, 24, 93, 0.1);
+}
+
+/* Hero animation for floating elements */
+.hero-animation {
+    animation: heroFloat 4s ease-in-out infinite;
+}
+
+@keyframes heroFloat {
+    0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(10px, -10px) rotate(5deg);
+    }
+    50% {
+        transform: translate(-5px, -20px) rotate(-5deg);
+    }
+    75% {
+        transform: translate(-10px, -10px) rotate(3deg);
+    }
+}
+
+/* Improved hover effects for cards */
+.navi-card .relative {
+    overflow: hidden;
+}
+
+.navi-card .relative::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(236, 72, 153, 0.1), transparent);
+    transition: left 0.5s;
+}
+
+.navi-card:hover .relative::before {
+    left: 100%;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .ambernath-glow {
+        text-shadow: 0 0 10px rgba(236, 72, 153, 0.3);
+    }
+    
+    .luxury-pulse {
+        animation-duration: 3s;
+    }
+}
+
+/* Enhanced button animations */
+button:hover, a:hover {
+    animation: buttonPulse 0.3s ease;
+}
+
+@keyframes buttonPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* FAQ animation improvements */
+.faq-item {
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 25px rgba(236, 72, 153, 0.1);
+}
+
+/* Floating background decorations */
+.floating-decoration {
+    position: absolute;
+    opacity: 0.1;
+    animation: floatUpDown 6s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+/* Enhanced gradient backgrounds */
+.gradient-bg {
+    background: linear-gradient(45deg, #ec4899, #db2777, #be185d, #9d174d);
+    background-size: 400% 400%;
+    animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Additional fade-in animation for scroll effects */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fix for elements that should have content */
+.navi-card .relative {
+    min-height: 200px;
+}
+
+/* Ensure buttons are visible */
+button, .btn {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Form styling improvements */
+form input, form select, form textarea {
+    transition: all 0.3s ease;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.1);
+}
+</style>
+
+<!-- Copy the exact JavaScript from escorts-ambernath.php -->
+<script>
+// Initialize Ambernath specific animations
+function initAmbernathAnimations() {
+    // Intersection Observer for scroll animations
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.animation = 'fadeInUp 0.6s ease forwards';
+            }
+        });
+    });
+
+    // Observe all cards and sections
+    document.querySelectorAll('.navi-card, .luxury-font').forEach(el => {
+        observer.observe(el);
+    });
+}
+
+// Track clicks for analytics
+function trackAmbernathClick(type) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'click', {
+            'event_category': 'Ambernath Escorts',
+            'event_label': type,
+            'value': 1
+        });
+    }
+    
+    // Custom tracking
+    console.log('Tracking Ambernath click:', type);
+}
+
+// SEO optimizations
+function initSEOOptimizations() {
+    // Dynamic meta updates
+    document.title = "Test Page - Escorts In Ambernath Animations";
+    
+    // Update performance metrics
+    if ('performance' in window) {
+        window.addEventListener('load', () => {
+            requestAnimationFrame(() => {
+                const perfData = performance.getEntriesByType('navigation')[0];
+                console.log('Page load performance:', perfData.loadEventEnd - perfData.loadEventStart, 'ms');
+            });
+        });
+    }
+}
+
+// Form handling
+document.addEventListener('DOMContentLoaded', function() {
+    initAmbernathAnimations();
+    initSEOOptimizations();
+    
+    // Form submission handling
+    const form = document.querySelector('form');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            trackAmbernathClick('form-submit');
+            
+            // Show success message
+            alert('Test form submitted successfully! This proves the JavaScript is working.');
+        });
+    }
+    
+    // Add hover effects to service cards
+    document.querySelectorAll('.navi-card').forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px) scale(1.02)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) scale(1)';
+        });
+    });
+    
+    // Track all phone number clicks
+    document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+        link.addEventListener('click', function() {
+            trackAmbernathClick('phone-call');
+        });
+    });
+    
+    // Track all WhatsApp clicks
+    document.querySelectorAll('a[href*="whatsapp"]').forEach(link => {
+        link.addEventListener('click', function() {
+            trackAmbernathClick('whatsapp-chat');
+        });
+    });
+    
+    // Add visual feedback for all buttons
+    document.querySelectorAll('button, .btn, a[class*="bg-"]').forEach(element => {
+        element.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.05)';
+        });
+        
+        element.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+        });
+    });
+});
+
+// Preload critical resources
+function preloadResources() {
+    console.log('Preloading resources...');
+}
+
+// Initialize everything
+document.addEventListener('DOMContentLoaded', preloadResources);
+
+// Console log for debugging
+console.log('Test page - Escorts In Ambernath scripts loaded successfully');
+console.log('Available functions:', {
+    initAmbernathAnimations: typeof initAmbernathAnimations,
+    trackAmbernathClick: typeof trackAmbernathClick,
+    initSEOOptimizations: typeof initSEOOptimizations,
+    preloadResources: typeof preloadResources
+});
+</script>
+
+</body>
+</html>

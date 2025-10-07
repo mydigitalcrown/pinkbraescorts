@@ -1,0 +1,11 @@
+# Security.txt for Pink Bra Escorts Mumbai
+# https://securitytxt.org/
+
+Contact: security@pinkbra.in
+Contact: +91-9372662471
+Expires: 2026-08-29T23:59:59.000Z
+Encryption: https://pinkbra.in/pgp-key.txt
+Acknowledgments: https://pinkbra.in/security-acknowledgments
+Preferred-Languages: en, hi
+Canonical: https://pinkbra.in/.well-known/security.txt
+Policy: https://pinkbra.in/security-policy
