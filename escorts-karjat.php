@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏆 Escorts In Karjat | #1 Premium Escorts Karjat Navi Mumbai | 24/7 Elite Companions</title>
+    <title>Escorts In Karjat | Premium Mumbai 24/7</title>
     
     <!-- Favicon & App Icons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -19,10 +19,11 @@
     <link rel="mask-icon" href="/favicon-32x32.svg" color="#ec4899">
     
     <!-- Advanced SEO Meta Tags -->
-    <meta name="description" content="🏆 #1 Escorts In Karjat | Premium Escorts Karjat Navi Mumbai | Elite companions 24/7 available | Verified Karjat escorts | Professional discretion guaranteed | Book now +91-9867564994">
+    <meta name="description" content="Escorts In Karjat | Premium verified escorts Mumbai 24/7 | Elite companions with discretion | Book Karjat escorts +91-9867564994">
     <meta name="keywords" content="Escorts In Karjat, Karjat escorts, escorts Karjat, Navi Mumbai escorts, Karjat escort service, premium Escorts In Karjat, luxury Escorts In Karjat, elite Escorts In Karjat, verified Karjat escorts, call girls Karjat, escort service Karjat, Karjat escort agency, best Escorts In Karjat, top Escorts In Karjat, independent Escorts In Karjat, VIP Escorts In Karjat, high class Escorts In Karjat, professional Escorts In Karjat, 24/7 Escorts In Karjat, Karjat companions">
     <meta name="author" content="Pink Bra Escorts - Premium Escort Services">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="rating" content="adult">
@@ -729,7 +730,7 @@
         <div class="absolute inset-0 karjat-gradient opacity-90"></div>
         <div class="absolute inset-0 premium-pattern"></div>
         <div class="absolute inset-0">
-            <img src="images/locations/mumbai/karjat-escorts.webp" alt="Escorts In Karjat - Premium Escorts Karjat Navi Mumbai Elite Companions" class="w-full h-full object-cover opacity-20">
+            <img src="images/locations/mumbai/karjat-escorts.webp" alt="Escorts In Karjat - Premium Escorts Karjat Navi Mumbai Elite Companions" title="Escorts In Karjat - Elite Companions Available 24/7" class="w-full h-full object-cover opacity-20" loading="lazy">
         </div>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
             <div class="hero-animation">
@@ -1023,6 +1024,9 @@
                         <div class="bg-gradient-to-r from-pink-50 to-rose-50 p-8 rounded-2xl mb-8">
                             <p class="text-lg text-gray-700 leading-relaxed mb-6">
                                 Karjat, strategically located in Navi Mumbai, has emerged as Maharashtra's most sought-after destination for premium escort services. With its modern infrastructure, business hubs, and sophisticated clientele, <strong>escorts in Karjat</strong> offer unparalleled luxury and discretion. This comprehensive guide explores everything you need to know about Karjat's elite escort scene, from finding verified companions to understanding the local culture and ensuring safe, professional experiences.
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                                <a href="https://en.wikipedia.org/wiki/Karjat" target="_blank" rel="nofollow noopener" class="text-pink-600 hover:text-pink-700 font-medium">Karjat</a> is a rapidly developing city in <a href="https://en.wikipedia.org/wiki/Mumbai" target="_blank" rel="nofollow noopener" class="text-pink-600 hover:text-pink-700 font-medium">Mumbai</a> metropolitan area, known for its scenic beauty and strategic location between Mumbai and Pune. The city offers a perfect blend of urban amenities and natural landscapes, making it an ideal location for premium escort services.
                             </p>
                             <p class="text-lg text-gray-700 leading-relaxed">
                                 As Navi Mumbai's tech and business center, Karjat attracts professionals, entrepreneurs, and travelers who appreciate quality companionship. The area's upscale hotels, fine dining establishments, and entertainment venues create the perfect backdrop for sophisticated escort experiences. Whether you're a business traveler seeking corporate companionship or someone looking for elite social companions, <strong>escorts in Karjat</strong> provide services that match the area's premium standards.
@@ -1460,6 +1464,60 @@
                             </p>
                         </div>
                     </section>
+                    
+                    <!-- Related Services and Locations -->
+                    <section class="mb-12">
+                        <div class="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-2xl">
+                            <h3 class="text-3xl font-bold text-gray-800 mb-6 luxury-font text-center">Explore More Premium Escort Services</h3>
+                            
+                            <div class="grid md:grid-cols-3 gap-8">
+                                <!-- Nearby Navi Mumbai Areas -->
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-800 mb-4">Navi Mumbai Locations</h4>
+                                    <ul class="space-y-2">
+                                        <li><a href="call-girls-kharghar.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Kharghar</a> - Premium companions in Navi Mumbai</li>
+                                        <li><a href="call-girls-panvel.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Panvel</a> - Elite escorts near Karjat</li>
+                                        <li><a href="call-girls-nerul.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Nerul</a> - Verified companions</li>
+                                        <li><a href="call-girls-vashi.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Vashi</a> - Business district escorts</li>
+                                        <li><a href="call-girls-belapur.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Belapur</a> - CBD area companions</li>
+                                        <li><a href="call-girls-airoli.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Airoli</a> - Professional escorts</li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Mumbai Central Areas -->
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-800 mb-4">Mumbai Premium Areas</h4>
+                                    <ul class="space-y-2">
+                                        <li><a href="call-girls-andheri.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Andheri</a> - Airport area escorts</li>
+                                        <li><a href="call-girls-bandra.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Bandra</a> - Celebrity district companions</li>
+                                        <li><a href="call-girls-juhu.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Juhu</a> - Beachside elite escorts</li>
+                                        <li><a href="call-girls-powai.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Powai</a> - Tech hub companions</li>
+                                        <li><a href="call-girls-goregaon.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Goregaon</a> - Film city escorts</li>
+                                        <li><a href="call-girls-malad.php" class="text-pink-600 hover:text-pink-700 font-medium">Call Girls Malad</a> - Premium companions</li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Service Categories -->
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-800 mb-4">Escort Service Types</h4>
+                                    <ul class="space-y-2">
+                                        <li><a href="corporate-escorts-mumbai.php" class="text-pink-600 hover:text-pink-700 font-medium">Corporate Escorts Mumbai</a> - Business companions</li>
+                                        <li><a href="college-escorts-mumbai.php" class="text-pink-600 hover:text-pink-700 font-medium">College Escorts Mumbai</a> - Young elite models</li>
+                                        <li><a href="mature-escorts-mumbai.php" class="text-pink-600 hover:text-pink-700 font-medium">Mature Escorts Mumbai</a> - Experienced companions</li>
+                                        <li><a href="international-escorts-mumbai.php" class="text-pink-600 hover:text-pink-700 font-medium">International Escorts</a> - Global companions</li>
+                                        <li><a href="vip-escorts-mumbai.php" class="text-pink-600 hover:text-pink-700 font-medium">VIP Escorts Mumbai</a> - Ultra-luxury service</li>
+                                        <li><a href="travel-companions-mumbai.php" class="text-pink-600 hover:text-pink-700 font-medium">Travel Companions</a> - Tour escorts</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-8 text-center">
+                                <p class="text-lg text-gray-700">
+                                    Looking for premium escorts in other Mumbai areas? Our <a href="escorts-mumbai.php" class="text-pink-600 hover:text-pink-700 font-medium">Mumbai Escorts</a> network covers all major locations with verified, professional companions available 24/7.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -1513,6 +1571,64 @@
         </div>
     </section>
 </main>
+
+<!-- Social Sharing Section -->
+<section class="py-12 bg-gradient-to-r from-pink-100 to-rose-100 border-t-2 border-pink-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 luxury-font">Share This Page</h3>
+            <p class="text-lg text-gray-600 mb-8">Help others discover premium <strong>Escorts In Karjat</strong> services</p>
+            
+            <div class="flex flex-wrap justify-center gap-4 mb-8">
+                <!-- Facebook Share -->
+                <a href="javascript:void(0)" onclick="shareOnFacebook()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg flex items-center space-x-2 transition-all duration-300 transform hover:scale-105">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+                
+                <!-- Twitter Share -->
+                <a href="javascript:void(0)" onclick="shareOnTwitter()" class="bg-blue-400 hover:bg-blue-500 text-white px-6 py-3 rounded-lg flex items-center space-x-2 transition-all duration-300 transform hover:scale-105">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                
+                <!-- LinkedIn Share -->
+                <a href="javascript:void(0)" onclick="shareOnLinkedIn()" class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg flex items-center space-x-2 transition-all duration-300 transform hover:scale-105">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                
+                <!-- WhatsApp Share -->
+                <a href="javascript:void(0)" onclick="shareOnWhatsApp()" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg flex items-center space-x-2 transition-all duration-300 transform hover:scale-105">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                
+                <!-- Telegram Share -->
+                <a href="javascript:void(0)" onclick="shareOnTelegram()" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center space-x-2 transition-all duration-300 transform hover:scale-105">
+                    <i class="fab fa-telegram-plane"></i>
+                    <span>Telegram</span>
+                </a>
+                
+                <!-- Native Share -->
+                <a href="javascript:void(0)" onclick="shareNative()" class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg flex items-center space-x-2 transition-all duration-300 transform hover:scale-105">
+                    <i class="fas fa-share-alt"></i>
+                    <span>Share</span>
+                </a>
+            </div>
+            
+            <!-- Copy URL -->
+            <div class="max-w-md mx-auto">
+                <div class="flex">
+                    <input type="text" id="pageUrl" value="https://pinkbraescort.in/escorts-karjat.php" readonly class="flex-1 px-4 py-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-pink-500">
+                    <button onclick="copyUrl()" class="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-r-lg transition-all duration-300">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- JavaScript -->
 <script>
@@ -1671,6 +1787,70 @@
             });
         });
     });
+
+    // Social Sharing Functions
+    function shareOnFacebook() {
+        const url = encodeURIComponent('https://pinkbraescort.in/escorts-karjat.php');
+        const title = encodeURIComponent('Escorts In Karjat | Premium Mumbai 24/7');
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}&t=${title}`, '_blank', 'width=600,height=400');
+    }
+
+    function shareOnTwitter() {
+        const url = encodeURIComponent('https://pinkbraescort.in/escorts-karjat.php');
+        const text = encodeURIComponent('Escorts In Karjat | Premium verified escorts Mumbai 24/7');
+        window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank', 'width=600,height=400');
+    }
+
+    function shareOnLinkedIn() {
+        const url = encodeURIComponent('https://pinkbraescort.in/escorts-karjat.php');
+        const title = encodeURIComponent('Escorts In Karjat | Premium Mumbai 24/7');
+        window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}`, '_blank', 'width=600,height=400');
+    }
+
+    function shareOnWhatsApp() {
+        const url = encodeURIComponent('https://pinkbraescort.in/escorts-karjat.php');
+        const text = encodeURIComponent('Check out premium Escorts In Karjat - Elite companions available 24/7');
+        window.open(`https://api.whatsapp.com/send?text=${text} ${url}`, '_blank');
+    }
+
+    function shareOnTelegram() {
+        const url = encodeURIComponent('https://pinkbraescort.in/escorts-karjat.php');
+        const text = encodeURIComponent('Escorts In Karjat | Premium verified escorts Mumbai 24/7');
+        window.open(`https://t.me/share/url?url=${url}&text=${text}`, '_blank');
+    }
+
+    function shareNative() {
+        if (navigator.share) {
+            navigator.share({
+                title: 'Escorts In Karjat | Premium Mumbai 24/7',
+                text: 'Premium verified escorts Mumbai 24/7 | Elite companions with discretion',
+                url: 'https://pinkbraescort.in/escorts-karjat.php'
+            }).catch(console.error);
+        } else {
+            // Fallback to copy URL
+            copyUrl();
+        }
+    }
+
+    function copyUrl() {
+        const urlInput = document.getElementById('pageUrl');
+        urlInput.select();
+        urlInput.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+        
+        // Show feedback
+        const button = event.target;
+        const originalText = button.innerHTML;
+        button.innerHTML = '<i class="fas fa-check"></i> Copied!';
+        button.classList.add('bg-green-600');
+        button.classList.remove('bg-pink-600');
+        
+        setTimeout(() => {
+            button.innerHTML = originalText;
+            button.classList.remove('bg-green-600');
+            button.classList.add('bg-pink-600');
+        }, 2000);
+    }
 </script>
 
 <?php include 'includes/footer.php'; ?>
