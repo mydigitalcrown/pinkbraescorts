@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏆 Escorts In Kanjurmarg | #1 Premium Escorts Kanjurmarg Navi Mumbai | 24/7 Elite Companions</title>
+    <title>Escorts In Kanjurmarg | Premium Mumbai 24/7</title>
     
     <!-- Favicon & App Icons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -19,7 +19,7 @@
     <link rel="mask-icon" href="/favicon-32x32.svg" color="#ec4899">
     
     <!-- Advanced SEO Meta Tags -->
-    <meta name="description" content="🏆 #1 Escorts In Kanjurmarg | Premium Escorts Kanjurmarg Navi Mumbai | Elite companions 24/7 available | Verified Kanjurmarg escorts | Professional discretion guaranteed | Book now +91-9867564994">
+    <meta name="description" content="Escorts In Kanjurmarg | Premium verified escorts Mumbai 24/7 | Elite companions with discretion | Book Kanjurmarg escorts +91-9867564994">
     <meta name="keywords" content="Escorts In Kanjurmarg, Escorts In Kanjurmarg, Kanjurmarg escorts, escorts Kanjurmarg, Navi Mumbai escorts, Kanjurmarg escort service, premium Escorts In Kanjurmarg, luxury Escorts In Kanjurmarg, elite Escorts In Kanjurmarg, verified Kanjurmarg escorts, call girls Kanjurmarg, escort service Kanjurmarg, Kanjurmarg escort agency, best Escorts In Kanjurmarg, top Escorts In Kanjurmarg, independent Escorts In Kanjurmarg, VIP Escorts In Kanjurmarg, high class Escorts In Kanjurmarg, professional Escorts In Kanjurmarg, 24/7 Escorts In Kanjurmarg, Kanjurmarg companions">
     <meta name="author" content="Pink Bra Escorts - Premium Escort Services">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -96,7 +96,10 @@
     <meta property="article:modified_time" content="2025-01-01T00:00:00+05:30">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://pinkbraescort.in/escorts-kanjurmarg.php">
+    <link rel="canonical" href="https://pinkbraescort.com/escorts-kanjurmarg.php">
+    
+    <!-- XML Sitemap -->
+    <link rel="sitemap" type="application/xml" href="https://pinkbraescort.com/sitemap.xml">
     
     <!-- Hreflang Tags -->
     <link rel="alternate" hreflang="en-in" href="https://pinkbraescort.in/escorts-kanjurmarg.php">
@@ -729,7 +732,7 @@
         <div class="absolute inset-0 kanjurmarg-gradient opacity-90"></div>
         <div class="absolute inset-0 premium-pattern"></div>
         <div class="absolute inset-0">
-            <img src="images/locations/mumbai/kanjurmarg-escorts.webp" alt="Escorts In Kanjurmarg - Premium Escorts Kanjurmarg Navi Mumbai Elite Companions" class="w-full h-full object-cover opacity-20">
+            <img src="images/locations/mumbai/kanjurmarg-escorts.webp" alt="Escorts In Kanjurmarg - Premium Escorts Kanjurmarg Navi Mumbai Elite Companions" title="Escorts In Kanjurmarg | Premium Elite Companions Mumbai 24/7" loading="lazy" class="w-full h-full object-cover opacity-20">
         </div>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
             <div class="hero-animation">
@@ -780,7 +783,7 @@
                     <span class="kanjurmarg-glow">Escorts In Kanjurmarg Categories</span> ⭐
                 </h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Premium <strong>Escorts In Kanjurmarg</strong>, Navi Mumbai with specialized companions for every occasion. Our verified <strong>Kanjurmarg escorts</strong> offer elite companionship with complete discretion.
+                    Premium <strong>Escorts In Kanjurmarg</strong>, Navi Mumbai with specialized companions for every occasion. Our verified <strong>Kanjurmarg escorts</strong> offer elite companionship with complete discretion in this thriving suburb of <a href="https://en.wikipedia.org/wiki/Mumbai" target="_blank" rel="nofollow noopener" class="text-blue-600 hover:text-blue-800">Mumbai</a>, located in the planned city of <a href="https://en.wikipedia.org/wiki/Kanjurmarg" target="_blank" rel="nofollow noopener" class="text-blue-600 hover:text-blue-800">Kanjurmarg</a>.
                 </p>
             </div>
             
@@ -790,7 +793,7 @@
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-3 luxury-font">Corporate Companions Kanjurmarg</h3>
-                    <p class="text-gray-600">Professional <strong>Escorts In Kanjurmarg</strong> for business meetings, corporate events, and executive companionship in Kanjurmarg's tech hub. Elite corporate companions available 24/7.</p>
+                    <p class="text-gray-600">Professional <strong>Escorts In Kanjurmarg</strong> for business meetings, corporate events, and executive companionship in Kanjurmarg's tech hub. Elite <a href="corporate-escorts-mumbai.php" class="text-blue-600 hover:text-blue-800">corporate companions</a> available 24/7.</p>
                 </div>
                 
                 <div class="navi-card rounded-2xl p-8 text-center">
@@ -798,7 +801,7 @@
                         <i class="fas fa-graduation-cap"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-3 luxury-font">College Models Kanjurmarg</h3>
-                    <p class="text-gray-600">Young, vibrant college <strong>Escorts In Kanjurmarg</strong> offering fresh energy and youthful companionship. Verified college models available in Kanjurmarg sectors.</p>
+                    <p class="text-gray-600">Young, vibrant <a href="college-escorts-mumbai.php" class="text-blue-600 hover:text-blue-800">college Escorts In Kanjurmarg</a> offering fresh energy and youthful companionship. Verified college models available in Kanjurmarg sectors.</p>
                 </div>
                 
                 <div class="navi-card rounded-2xl p-8 text-center">
@@ -806,7 +809,7 @@
                         <i class="fas fa-crown"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-3 luxury-font">Elite Escorts Kanjurmarg</h3>
-                    <p class="text-gray-600">High-class fashion models and elite <strong>Escorts In Kanjurmarg</strong> for luxury experiences and upscale events. Premium companions in Navi Mumbai's finest location.</p>
+                    <p class="text-gray-600">High-class fashion models and <a href="elite-escorts-mumbai.php" class="text-blue-600 hover:text-blue-800">elite Escorts In Kanjurmarg</a> for luxury experiences and upscale events. Premium companions in Navi Mumbai's finest location.</p>
                 </div>
                 
                 <div class="navi-card rounded-2xl p-8 text-center">
@@ -814,7 +817,7 @@
                         <i class="fas fa-heart"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-3 luxury-font">Mature Escorts Kanjurmarg</h3>
-                    <p class="text-gray-600">Sophisticated mature <strong>Escorts In Kanjurmarg</strong> offering experienced companionship and emotional connection. Premium mature companions in Navi Mumbai.</p>
+                    <p class="text-gray-600">Sophisticated <a href="mature-escorts-mumbai.php" class="text-blue-600 hover:text-blue-800">mature Escorts In Kanjurmarg</a> offering experienced companionship and emotional connection. Premium mature companions in Navi Mumbai.</p>
                 </div>
                 
                 <div class="navi-card rounded-2xl p-8 text-center">
@@ -822,7 +825,7 @@
                         <i class="fas fa-globe"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-3 luxury-font">International Escorts Kanjurmarg</h3>
-                    <p class="text-gray-600">Foreign models and international <strong>Escorts In Kanjurmarg</strong> with global sophistication and cultural diversity. Premium international companions in Navi Mumbai.</p>
+                    <p class="text-gray-600">Foreign models and <a href="international-escorts-mumbai.php" class="text-blue-600 hover:text-blue-800">international Escorts In Kanjurmarg</a> with global sophistication and cultural diversity. Premium international companions in Navi Mumbai.</p>
                 </div>
                 
                 <div class="navi-card rounded-2xl p-8 text-center">
@@ -830,7 +833,7 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-3 luxury-font">VIP Escorts Kanjurmarg</h3>
-                    <p class="text-gray-600">Ultra-luxury VIP <strong>Escorts In Kanjurmarg</strong> for exclusive experiences and celebrity-level service. Premium VIP companions in Navi Mumbai's tech hub.</p>
+                    <p class="text-gray-600">Ultra-luxury <a href="vip-escorts-mumbai.php" class="text-blue-600 hover:text-blue-800">VIP Escorts In Kanjurmarg</a> for exclusive experiences and celebrity-level service. Premium VIP companions in Navi Mumbai's tech hub.</p>
                 </div>
             </div>
         </div>
@@ -854,7 +857,7 @@
                         <i class="fas fa-map-marked-alt"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-3 luxury-font">Local Kanjurmarg Expertise</h3>
-                    <p class="text-gray-600">Deep knowledge of Kanjurmarg area including best hotels, restaurants, and entertainment venues. Our <strong>Escorts In Kanjurmarg</strong> know every sector and location in Navi Mumbai.</p>
+                    <p class="text-gray-600">Deep knowledge of Kanjurmarg area including best hotels, restaurants, and entertainment venues. Our <strong>Escorts In Kanjurmarg</strong> know every sector and location in <a href="escorts-navi-mumbai.php" class="text-blue-600 hover:text-blue-800">Navi Mumbai</a>, plus nearby areas like <a href="escorts-vashi.php" class="text-blue-600 hover:text-blue-800">Vashi</a> and <a href="escorts-belapur.php" class="text-blue-600 hover:text-blue-800">Belapur</a>.</p>
                 </div>
                 
                 <div class="navi-card rounded-2xl p-8 text-center">
@@ -862,7 +865,7 @@
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-3 luxury-font">Verified Quality</h3>
-                    <p class="text-gray-600">All Kanjurmarg escorts thoroughly verified with background checks and quality assurance standards.</p>
+                    <p class="text-gray-600">All <a href="escorts-mumbai.php" class="text-blue-600 hover:text-blue-800">Kanjurmarg escorts</a> thoroughly verified with background checks and quality assurance standards.</p>
                 </div>
                 
                 <div class="navi-card rounded-2xl p-8 text-center">
@@ -925,7 +928,7 @@
                         What areas of Navi Mumbai do you cover?
                     </h3>
                     <p class="text-gray-600 pl-8">
-                        We provide escort services throughout Navi Mumbai including Kanjurmarg, Vashi, Belapur, Nerul, Kharghar, Panvel, Ghansoli, and all other areas with local expertise and verified companions.
+                        We provide escort services throughout Navi Mumbai including <a href="escorts-kanjurmarg.php" class="text-blue-600 hover:text-blue-800">Kanjurmarg</a>, <a href="escorts-vashi.php" class="text-blue-600 hover:text-blue-800">Vashi</a>, <a href="escorts-belapur.php" class="text-blue-600 hover:text-blue-800">Belapur</a>, <a href="escorts-nerul.php" class="text-blue-600 hover:text-blue-800">Nerul</a>, <a href="escorts-kharghar.php" class="text-blue-600 hover:text-blue-800">Kharghar</a>, <a href="escorts-panvel.php" class="text-blue-600 hover:text-blue-800">Panvel</a>, Ghansoli, and all other areas with local expertise and verified companions.
                     </p>
                 </div>
             </div>
@@ -1473,27 +1476,25 @@
                     Why Choose <span class="text-pink-600">Escorts In Kanjurmarg</span>?
                 </h2>
                 <p class="text-lg text-gray-600 max-w-4xl mx-auto">
-                    Our <strong>Escorts In Kanjurmarg</strong> are the premier choice for discerning clients seeking exceptional companionship in Navi Mumbai. With deep local knowledge and professional excellence, we provide unmatched service throughout all Kanjurmarg sectors.
+                    Our <strong>Escorts In Kanjurmarg</strong> are the premier choice for discerning clients seeking exceptional companionship in Navi Mumbai. With deep local knowledge and professional excellence, we provide unmatched service throughout all Kanjurmarg sectors, plus coverage to <a href="escorts-thane.php" class="text-blue-600 hover:text-blue-800">Thane</a> and <a href="escorts-pune.php" class="text-blue-600 hover:text-blue-800">Pune</a>.
                 </p>
             </div>
             
             <div class="grid md:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-xl shadow-md">
-                    <i class="fas fa-map-marker-alt text-3xl text-pink-600 mb-4"></i>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">Complete Kanjurmarg Coverage</h3>
-                    <p class="text-gray-600">Our <strong>Kanjurmarg escorts</strong> cover all sectors from Kanjurmarg Railway Station to IT parks, ensuring convenient access throughout Navi Mumbai's tech hub.</p>
-                </div>
-                
-                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <i class="fas fa-map-marker-alt text-3xl text-pink-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Complete Kanjurmarg Coverage</h3>
+                        <p class="text-gray-600">Our <strong>Kanjurmarg escorts</strong> cover all sectors from <a href="call-girls-kanjurmarg.php" class="text-blue-600 hover:text-blue-800">Kanjurmarg Railway Station</a> to IT parks, ensuring convenient access throughout Navi Mumbai's tech hub.</p>
+                    </div>                <div class="bg-white p-6 rounded-xl shadow-md">
                     <i class="fas fa-shield-alt text-3xl text-pink-600 mb-4"></i>
                     <h3 class="text-xl font-bold text-gray-800 mb-3">Verified & Trusted</h3>
-                    <p class="text-gray-600">All <strong>Escorts In Kanjurmarg</strong> undergo thorough verification, background checks, and professional training to ensure your safety and satisfaction.</p>
+                    <p class="text-gray-600">All <strong>Escorts In Kanjurmarg</strong> undergo thorough verification, background checks, and professional training to ensure your safety and satisfaction. We also serve nearby areas like <a href="escorts-andheri.php" class="text-blue-600 hover:text-blue-800">Andheri</a> and <a href="escorts-powai.php" class="text-blue-600 hover:text-blue-800">Powai</a>.</p>
                 </div>
                 
                 <div class="bg-white p-6 rounded-xl shadow-md">
                     <i class="fas fa-clock text-3xl text-pink-600 mb-4"></i>
                     <h3 class="text-xl font-bold text-gray-800 mb-3">24/7 Availability</h3>
-                    <p class="text-gray-600">Premium <strong>Kanjurmarg escort services</strong> available round the clock for last-minute bookings, corporate events, and special occasions.</p>
+                    <p class="text-gray-600">Premium <strong>Kanjurmarg escort services</strong> available round the clock for last-minute bookings, corporate events, and special occasions throughout <a href="escorts-mumbai.php" class="text-blue-600 hover:text-blue-800">Mumbai</a>.</p>
                 </div>
             </div>
             
@@ -1505,7 +1506,7 @@
                     <span class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-semibold">Kanjurmarg Railway Station</span>
                     <span class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-semibold">Kanjurmarg Bus Depot</span>
                     <span class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-semibold">Kanjurmarg IT Parks</span>
-                    <span class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-semibold">Mahape Border</span>
+                    <span class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-semibold"><a href="escorts-mahape.php" class="text-pink-800 hover:text-pink-900">Mahape Border</a></span>
                     <span class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-semibold">Kanjurmarg Creek</span>
                     <span class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-semibold">Kanjurmarg Metro Station</span>
                 </div>
@@ -1671,6 +1672,141 @@
             });
         });
     });
+</script>
+
+<!-- Social Sharing Section -->
+<section class="py-12 bg-gradient-to-r from-pink-100 to-rose-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 luxury-font">Share Your Experience</h2>
+        <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">Found the perfect <strong>Escorts In Kanjurmarg</strong>? Share with friends and help others discover premium companionship in Navi Mumbai.</p>
+        
+        <div class="flex flex-wrap justify-center gap-4 mb-8">
+            <!-- Facebook Share -->
+            <a href="#" onclick="shareOnFacebook()" class="kanjurmarg-share-btn bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 flex items-center gap-2">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+            </a>
+            
+            <!-- Twitter Share -->
+            <a href="#" onclick="shareOnTwitter()" class="kanjurmarg-share-btn bg-blue-400 text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition-all duration-300 flex items-center gap-2">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+            </a>
+            
+            <!-- LinkedIn Share -->
+            <a href="#" onclick="shareOnLinkedIn()" class="kanjurmarg-share-btn bg-blue-800 text-white px-6 py-3 rounded-lg hover:bg-blue-900 transition-all duration-300 flex items-center gap-2">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+            </a>
+            
+            <!-- WhatsApp Share -->
+            <a href="#" onclick="shareOnWhatsApp()" class="kanjurmarg-share-btn bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-all duration-300 flex items-center gap-2">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+            
+            <!-- Telegram Share -->
+            <a href="#" onclick="shareOnTelegram()" class="kanjurmarg-share-btn bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 flex items-center gap-2">
+                <i class="fab fa-telegram-plane"></i>
+                <span>Telegram</span>
+            </a>
+            
+            <!-- Email Share -->
+            <a href="#" onclick="shareViaEmail()" class="kanjurmarg-share-btn bg-gray-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition-all duration-300 flex items-center gap-2">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            
+            <!-- Native Share (Mobile) -->
+            <button id="nativeShareBtn" class="kanjurmarg-share-btn bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700 transition-all duration-300 flex items-center gap-2 hidden">
+                <i class="fas fa-share-alt"></i>
+                <span>Share</span>
+            </button>
+        </div>
+        
+        <p class="text-sm text-gray-500">Share responsibly and respect privacy</p>
+    </div>
+</section>
+
+<script>
+    // Social Sharing Functions
+    const pageTitle = "Escorts In Kanjurmarg | Premium Mumbai 24/7";
+    const pageUrl = window.location.href;
+    const pageDescription = "Premium verified escorts Mumbai 24/7 | Elite companions with discretion | Book Kanjurmarg escorts +91-9867564994";
+
+    function shareOnFacebook() {
+        const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`;
+        window.open(url, 'facebook-share', 'width=580,height=296');
+        trackShare('facebook');
+    }
+
+    function shareOnTwitter() {
+        const text = `${pageTitle} - ${pageDescription}`;
+        const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(pageUrl)}`;
+        window.open(url, 'twitter-share', 'width=550,height=235');
+        trackShare('twitter');
+    }
+
+    function shareOnLinkedIn() {
+        const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(pageUrl)}`;
+        window.open(url, 'linkedin-share', 'width=550,height=730');
+        trackShare('linkedin');
+    }
+
+    function shareOnWhatsApp() {
+        const text = `${pageTitle}\n${pageDescription}\n${pageUrl}`;
+        const url = `https://wa.me/?text=${encodeURIComponent(text)}`;
+        window.open(url, '_blank');
+        trackShare('whatsapp');
+    }
+
+    function shareOnTelegram() {
+        const text = `${pageTitle}\n${pageDescription}`;
+        const url = `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(text)}`;
+        window.open(url, '_blank');
+        trackShare('telegram');
+    }
+
+    function shareViaEmail() {
+        const subject = encodeURIComponent(pageTitle);
+        const body = encodeURIComponent(`${pageDescription}\n\n${pageUrl}`);
+        const url = `mailto:?subject=${subject}&body=${body}`;
+        window.location.href = url;
+        trackShare('email');
+    }
+
+    // Native Share API for mobile devices
+    function initNativeShare() {
+        if (navigator.share) {
+            document.getElementById('nativeShareBtn').classList.remove('hidden');
+            document.getElementById('nativeShareBtn').addEventListener('click', async () => {
+                try {
+                    await navigator.share({
+                        title: pageTitle,
+                        text: pageDescription,
+                        url: pageUrl
+                    });
+                    trackShare('native');
+                } catch (error) {
+                    console.log('Native sharing cancelled');
+                }
+            });
+        }
+    }
+
+    // Track sharing events
+    function trackShare(platform) {
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'share', {
+                method: platform,
+                content_type: 'escorts_kanjurmarg',
+                content_id: 'kanjurmarg_escorts_page'
+            });
+        }
+    }
+
+    // Initialize native share
+    document.addEventListener('DOMContentLoaded', initNativeShare);
 </script>
 
 <?php include 'includes/footer.php'; ?>
