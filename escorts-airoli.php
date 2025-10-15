@@ -7,20 +7,19 @@
     
     <!-- Favicon & App Icons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16x16.svg">
     <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon-32x32.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileImage" content="/apple-touch-icon.svg">
+    <meta name="msapplication-TileImage" content="/apple-touch-icon.png">
     <meta name="msapplication-TileColor" content="#ec4899">
     <meta name="msapplication-config" content="/browserconfig.xml">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="mask-icon" href="/favicon-32x32.svg" color="#ec4899">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ec4899">
     
     <!-- Advanced SEO Meta Tags -->
     <meta name="description" content="Escorts In Airoli | Premium verified escorts Airoli 24/7 | Elite companions with discretion | Book verified Airoli escorts +91-9867564994">
-    <meta name="keywords" content="escorts in airoli, airoli escorts, escorts airoli, navi mumbai escorts, airoli escort service, premium escorts airoli, luxury escorts airoli, elite escorts airoli, verified escorts airoli, call girls airoli, escort service airoli, airoli escort agency, best escorts airoli, top escorts airoli, independent escorts airoli, vip escorts airoli, high class escorts airoli, professional escorts airoli, 24/7 escorts airoli, airoli companions">
+    <meta name="keywords" content="Escorts In Airoli, escorts in airoli, airoli escorts, escorts airoli, navi mumbai escorts, airoli escort service, premium escorts airoli, luxury escorts airoli, elite escorts airoli, verified escorts airoli, escort service airoli, airoli escort agency, best escorts airoli, top escorts airoli, independent escorts airoli, vip escorts airoli, high class escorts airoli, professional escorts airoli, 24/7 escorts airoli, airoli companions">
     <meta name="author" content="Pink Bra Escorts - Premium Escort Services">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -107,7 +106,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/escorts-airoli.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-airoli.php">
     <link rel="preload" href="images/locations/mumbai/airoli-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -558,14 +556,23 @@
     }
     </script>
     
-    <!-- Review Schema for EEAT -->
+    <!-- Review Schema for EEAT - FIXED -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Airoli"
+            "name": "Escorts In Airoli",
+            "description": "Premium escort services in Airoli, Navi Mumbai offering elite companionship with complete discretion and professional service.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Airoli"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Airoli, Navi Mumbai"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -576,7 +583,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Airoli. Professional, discreet, and reliable. The escorts in Airoli provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional Escorts In Airoli service. Professional, discreet, and reliable. The Escorts In Airoli team provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-11-15"
     }
     </script>
     

@@ -114,13 +114,22 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/">
     <link rel="alternate" hreflang="x-default" href="https://pinkbraescort.in/">
     
-    <!-- DNS Prefetch & Preconnect for Performance -->
+    <!-- Enhanced DNS Prefetch & Preconnect for Performance -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//cdn.tailwindcss.com">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//www.google.com">
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    
+    <!-- Critical Resource Hints -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"></noscript>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
     
     <!-- Favicon & App Icons -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -395,92 +404,195 @@
     }
     </script>
     
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'primary-pink': '#e91e63',
-                        'secondary-pink': '#f48fb1',
-                        'light-pink': '#fce4ec',
-                        'dark-pink': '#ad1457',
-                        'accent-pink': '#ff69b4',
-                        'pink': {
-                            50: '#fdf2f8',
-                            100: '#fce4ec',
-                            200: '#f8bbd9',
-                            300: '#f48fb1',
-                            400: '#f06292',
-                            500: '#e91e63',
-                            600: '#d81b60',
-                            700: '#c2185b',
-                            800: '#ad1457',
-                            900: '#880e4f',
-                        }
-                    },
-                    fontFamily: {
-                        'inter': ['Inter', 'sans-serif'],
-                    }
-                }
+    <!-- Critical CSS Styles (Inline for Performance) -->
+    <style>
+        :root {
+            --primary-pink: #e91e63;
+            --secondary-pink: #f48fb1;
+            --light-pink: #fce4ec;
+            --dark-pink: #ad1457;
+            --accent-pink: #ff69b4;
+        }
+        
+        body { 
+            font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            line-height: 1.6;
+        }
+        
+        .hero-section {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #e91e63 0%, #ec4899 50%, #f43f5e 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            text-align: center;
+            color: white;
+            padding: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .hero-title {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 4vw, 2rem);
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        @media (min-width: 640px) {
+            .cta-buttons {
+                flex-direction: row;
+                justify-content: center;
             }
         }
+        
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            font-weight: 700;
+            border-radius: 9999px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1.125rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        .cta-btn:hover {
+            transform: translateY(-2px) scale(1.05);
+        }
+        
+        .cta-primary {
+            background: white;
+            color: #e91e63;
+        }
+        
+        .cta-secondary {
+            background: #10b981;
+            color: white;
+        }
+        
+        .trust-indicators {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(0,0,0,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.875rem;
+        }
+        
+        /* Loading states */
+        .loading { opacity: 0; }
+        .loaded { opacity: 1; transition: opacity 0.3s ease; }
+        
+        /* Performance optimizations */
+        img { will-change: transform; }
+        .animate-bounce { animation-duration: 2s; }
+    </style>
+    
+    <!-- Tailwind CSS - Deferred for Performance -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script" onload="loadTailwind()">
+    <script>
+        function loadTailwind() {
+            const script = document.createElement('script');
+            script.src = 'https://cdn.tailwindcss.com';
+            script.onload = function() {
+                tailwind.config = {
+                    theme: {
+                        extend: {
+                            colors: {
+                                'primary-pink': '#e91e63',
+                                'secondary-pink': '#f48fb1',
+                                'light-pink': '#fce4ec',
+                                'dark-pink': '#ad1457',
+                                'accent-pink': '#ff69b4',
+                                'pink': {
+                                    50: '#fdf2f8', 100: '#fce4ec', 200: '#f8bbd9',
+                                    300: '#f48fb1', 400: '#f06292', 500: '#e91e63',
+                                    600: '#d81b60', 700: '#c2185b', 800: '#ad1457', 900: '#880e4f'
+                                }
+                            },
+                            fontFamily: { 'inter': ['Inter', 'sans-serif'] }
+                        }
+                    }
+                };
+            };
+            document.head.appendChild(script);
+        }
     </script>
-    <link rel="stylesheet" href="assets/css/tailwind-custom.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Non-critical CSS -->
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
 </head>
 <body>
     <?php include 'includes/header.php'; ?>
     
-    <!-- Hero Section -->
-    <section id="home" class="relative min-h-screen bg-gradient-to-br from-pink-600 via-pink-500 to-rose-400 flex items-center justify-center overflow-hidden">
-        <!-- Animated Background Elements -->
+    <!-- Hero Section - Optimized for Performance -->
+    <section id="home" class="hero-section">
+        <!-- Optimized Background Elements (CSS-based) -->
         <div class="absolute inset-0 overflow-hidden">
-            <!-- Floating Hearts Animation -->
+            <!-- Minimal animations for better performance -->
             <div class="absolute top-1/4 left-1/4 text-white opacity-10 animate-bounce" style="animation-delay: 0s; animation-duration: 3s;">
-                <i class="fas fa-heart text-6xl"></i>
+                <div style="width: 4rem; height: 4rem; font-size: 4rem;">♥</div>
             </div>
             <div class="absolute top-1/3 right-1/4 text-white opacity-10 animate-bounce" style="animation-delay: 1s; animation-duration: 4s;">
-                <i class="fas fa-heart text-4xl"></i>
+                <div style="width: 2.5rem; height: 2.5rem; font-size: 2.5rem;">♥</div>
             </div>
             <div class="absolute bottom-1/3 left-1/3 text-white opacity-10 animate-bounce" style="animation-delay: 2s; animation-duration: 3.5s;">
-                <i class="fas fa-heart text-5xl"></i>
+                <div style="width: 3rem; height: 3rem; font-size: 3rem;">♥</div>
             </div>
-            
-            <!-- Geometric Shapes -->
-            <div class="absolute top-10 right-10 w-20 h-20 bg-white opacity-5 rounded-full animate-pulse"></div>
-            <div class="absolute bottom-20 left-10 w-16 h-16 bg-white opacity-5 rotate-45 animate-spin" style="animation-duration: 8s;"></div>
-            <div class="absolute top-1/2 right-20 w-12 h-12 bg-white opacity-5 rounded-full animate-ping" style="animation-delay: 1s;"></div>
-            
-            <!-- Gradient Overlay Pattern -->
-            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-5 transform -skew-y-12 animate-pulse"></div>
         </div>
         
         <!-- Content -->
-        <div class="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="hero-content">
             <!-- Main Heading with Enhanced SEO Typography -->
             <div class="mb-8">
-                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold mb-4 leading-tight" itemscope itemtype="https://schema.org/Headline">
-                    <span class="block bg-gradient-to-r from-white via-pink-100 to-white bg-clip-text text-transparent drop-shadow-2xl" itemprop="headline">
+                <h1 class="hero-title" itemscope itemtype="https://schema.org/Headline">
+                    <span class="block bg-gradient-to-r from-white via-pink-100 to-white bg-clip-text text-transparent" itemprop="headline">
                         #1 Premium Escorts In Mumbai
                     </span>
-                    <span class="block text-3xl sm:text-4xl lg:text-5xl mt-2 font-semibold text-pink-100" itemprop="alternativeHeadline">
+                    <span class="block hero-subtitle" itemprop="alternativeHeadline">
                         5000+ Verified VIP Companions 24/7
                     </span>
                 </h1>
             </div>
-
-            <!-- Enhanced Subtitle with Better SEO -->
-            <h2 class="text-xl sm:text-2xl lg:text-3xl font-medium mb-8 text-pink-50 max-w-4xl mx-auto leading-relaxed">
-                <span class="inline-block bg-black bg-opacity-20 px-4 py-2 rounded-full backdrop-blur-sm border border-white border-opacity-20">
-                    Celebrity Escorts • Russian Models • Independent Companions • Outcall & Incall Services
-                </span>
-            </h2>
 
             <!-- Enhanced Description with SEO Keywords -->
             <p class="text-lg sm:text-xl lg:text-2xl mb-12 max-w-5xl mx-auto leading-relaxed text-pink-50 font-light" itemscope itemtype="https://schema.org/Answer">
@@ -488,25 +600,20 @@
                 Our professional <strong class="text-yellow-200">Mumbai escorts</strong> provide elite 
                 <strong class="text-yellow-200">outcall and incall services</strong> across all areas including 
                 <em class="text-pink-100">Bandra, Juhu, Andheri, Powai, Colaba & Navi Mumbai</em>.</span>
-                <span class="inline-block bg-black bg-opacity-20 px-3 py-1 rounded-full text-base mt-2">
-                    100% Verified • Safe & Discreet • 30-Min Arrival • Money-Back Guarantee
-                </span>
             </p>
 
             <!-- Enhanced Call-to-Action Buttons -->
-            <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-                <a href="tel:+919867564994" class="group relative bg-white text-pink-600 hover:bg-pink-50 font-bold py-5 px-10 rounded-full shadow-2xl transform hover:scale-110 transition-all duration-500 flex items-center gap-4 text-xl border-4 border-transparent hover:border-pink-200 overflow-hidden">
-                    <div class="absolute inset-0 bg-gradient-to-r from-pink-500 to-rose-500 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
-                    <i class="fas fa-phone text-2xl group-hover:animate-pulse"></i> 
+            <div class="cta-buttons">
+                <a href="tel:+919867564994" class="cta-btn cta-primary" aria-label="Call Pink Bra Escorts Mumbai">
+                    <span aria-hidden="true">📞</span>
                     <span>Call Now</span>
                     <div class="absolute -top-1 -right-1 bg-red-500 text-white text-xs px-2 py-1 rounded-full animate-pulse">
                         24/7
                     </div>
                 </a>
                 
-                <a href="https://api.whatsapp.com/send?phone=919867564994" class="group relative bg-green-500 hover:bg-green-600 text-white font-bold py-5 px-10 rounded-full shadow-2xl transform hover:scale-110 transition-all duration-500 flex items-center gap-4 text-xl border-4 border-transparent hover:border-green-300 overflow-hidden">
-                    <div class="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
-                    <i class="fab fa-whatsapp text-2xl group-hover:animate-bounce"></i> 
+                <a href="https://api.whatsapp.com/send?phone=919867564994" class="cta-btn cta-secondary" aria-label="WhatsApp Pink Bra Escorts Mumbai">
+                    <span aria-hidden="true">💬</span>
                     <span>WhatsApp</span>
                     <div class="absolute -top-1 -right-1 bg-yellow-500 text-black text-xs px-2 py-1 rounded-full animate-pulse">
                         Fast
@@ -514,30 +621,30 @@
                 </a>
             </div>
 
-            <!-- Enhanced Trust Indicators with SEO Keywords -->
-            <div class="flex flex-wrap justify-center items-center gap-6 text-pink-100 text-sm trust-indicators">
-                <div class="flex items-center gap-2 bg-black bg-opacity-20 px-4 py-2 rounded-full backdrop-blur-sm border border-white border-opacity-10">
-                    <i class="fas fa-shield-alt text-green-300"></i>
+            <!-- Enhanced Trust Indicators -->
+            <div class="trust-indicators">
+                <div class="trust-badge">
+                    <span aria-hidden="true">🛡️</span>
                     <span>5247+ Verified Escorts</span>
                 </div>
-                <div class="flex items-center gap-2 bg-black bg-opacity-20 px-4 py-2 rounded-full backdrop-blur-sm border border-white border-opacity-10">
-                    <i class="fas fa-lock text-blue-300"></i>
+                <div class="trust-badge">
+                    <span aria-hidden="true">🔒</span>
                     <span>100% Safe & Private</span>
                 </div>
-                <div class="flex items-center gap-2 bg-black bg-opacity-20 px-4 py-2 rounded-full backdrop-blur-sm border border-white border-opacity-10">
-                    <i class="fas fa-star text-yellow-300"></i>
+                <div class="trust-badge">
+                    <span aria-hidden="true">⭐</span>
                     <span>4.9★ Rating (5247 Reviews)</span>
                 </div>
-                <div class="flex items-center gap-2 bg-black bg-opacity-20 px-4 py-2 rounded-full backdrop-blur-sm border border-white border-opacity-10">
-                    <i class="fas fa-clock text-purple-300"></i>
+                <div class="trust-badge">
+                    <span aria-hidden="true">🕐</span>
                     <span>24/7 Available</span>
                 </div>
-                <div class="flex items-center gap-2 bg-black bg-opacity-20 px-4 py-2 rounded-full backdrop-blur-sm border border-white border-opacity-10">
-                    <i class="fas fa-map-marker-alt text-red-300"></i>
+                <div class="trust-badge">
+                    <span aria-hidden="true">📍</span>
                     <span>All Mumbai Locations</span>
                 </div>
-                <div class="flex items-center gap-2 bg-black bg-opacity-20 px-4 py-2 rounded-full backdrop-blur-sm border border-white border-opacity-10">
-                    <i class="fas fa-bolt text-orange-300"></i>
+                <div class="trust-badge">
+                    <span aria-hidden="true">⚡</span>
                     <span>30-Min Arrival</span>
                 </div>
             </div>
@@ -547,7 +654,7 @@
         <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
             <div class="flex flex-col items-center gap-2">
                 <span class="text-sm opacity-75">Explore Services</span>
-                <i class="fas fa-chevron-down text-xl"></i>
+                <span aria-hidden="true">⬇</span>
             </div>
         </div>
     </section>
@@ -870,6 +977,119 @@
 
     <?php include 'includes/footer.php'; ?>
 
-    <script src="script.js"></script>
+    <!-- Performance-Optimized JavaScript Loading -->
+    <script>
+        // Defer non-critical JavaScript
+        function loadScript(src) {
+            const script = document.createElement('script');
+            script.src = src;
+            script.defer = true;
+            document.head.appendChild(script);
+        }
+        
+        // Load scripts after page load
+        window.addEventListener('load', function() {
+            // Load main script
+            loadScript('script.js');
+            
+            // Lazy load FontAwesome if not already loaded
+            if (!document.querySelector('link[href*="font-awesome"]')) {
+                const link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css';
+                document.head.appendChild(link);
+            }
+        });
+        
+        // Performance optimizations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add loaded class to body for CSS transitions
+            document.body.classList.add('loaded');
+            
+            // Optimize images with lazy loading
+            const images = document.querySelectorAll('img[data-src]');
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            img.classList.remove('loading');
+                            img.classList.add('loaded');
+                            imageObserver.unobserve(img);
+                        }
+                    });
+                });
+                
+                images.forEach(img => {
+                    img.classList.add('loading');
+                    imageObserver.observe(img);
+                });
+            } else {
+                // Fallback for browsers without IntersectionObserver
+                images.forEach(img => {
+                    img.src = img.dataset.src;
+                });
+            }
+            
+            // Optimize animations
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(function() {
+                    // Start non-critical animations
+                    document.querySelectorAll('.animate-bounce').forEach(el => {
+                        el.style.animationPlayState = 'running';
+                    });
+                });
+            }
+        });
+        
+        // Critical performance metrics
+        if ('performance' in window) {
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    const perfData = performance.timing;
+                    const loadTime = perfData.loadEventEnd - perfData.navigationStart;
+                    const domReady = perfData.domContentLoadedEventEnd - perfData.navigationStart;
+                    
+                    // Send performance data (optional analytics)
+                    console.log('Load Time:', loadTime + 'ms', 'DOM Ready:', domReady + 'ms');
+                }, 0);
+            });
+        }
+        
+        // Preload critical pages on hover
+        let preloadedPages = new Set();
+        document.addEventListener('mouseover', function(e) {
+            if (e.target.tagName === 'A' && e.target.href && !preloadedPages.has(e.target.href)) {
+                const link = document.createElement('link');
+                link.rel = 'prefetch';
+                link.href = e.target.href;
+                document.head.appendChild(link);
+                preloadedPages.add(e.target.href);
+            }
+        });
+    </script>
+    
+    <!-- Service Worker for Caching (Optional) -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js').catch(function() {
+                    // Service worker not available, continue without it
+                });
+            });
+        }
+    </script>
+    
+    <!-- Performance Monitoring (Development/Testing Only) -->
+    <script>
+        // Only load performance monitoring in development or when ?debug=1 is present
+        if (window.location.search.includes('debug=1') || window.location.hostname === 'localhost') {
+            const perfScript = document.createElement('script');
+            perfScript.src = 'performance-monitor.js';
+            perfScript.defer = true;
+            document.head.appendChild(perfScript);
+        }
+    </script>
 </body>
 </html>

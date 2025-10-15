@@ -1,3 +1,5 @@
+/* Performance-Optimized CSS for Pink Bra Escorts */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,20 +7,162 @@
 }
 
 :root {
-    --primary-pink: #FF69B4;
-    --secondary-pink: #FFB6C1;
-    --dark-pink: #C71585;
-    --light-pink: #FFC0CB;
+    --primary-pink: #e91e63;
+    --secondary-pink: #f48fb1;
+    --dark-pink: #ad1457;
+    --light-pink: #fce4ec;
+    --accent-pink: #ff69b4;
     --text-dark: #333;
     --text-light: #666;
     --white: #ffffff;
-    --gradient: linear-gradient(135deg, #FF69B4, #FFB6C1);
+    --gradient: linear-gradient(135deg, #e91e63, #f48fb1);
+    --shadow-light: 0 2px 4px rgba(0,0,0,0.1);
+    --shadow-medium: 0 4px 8px rgba(0,0,0,0.15);
+    --shadow-heavy: 0 8px 25px rgba(0,0,0,0.2);
+    --border-radius: 12px;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Performance optimizations */
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
+    background: var(--white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Improve font loading performance */
+.font-inter {
+    font-display: swap;
+}
+
+/* Critical CSS for above-the-fold content */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e91e63 0%, #ec4899 50%, #f43f5e 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    will-change: transform;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+
+/* Optimized animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.loaded .hero-content > * {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.loaded .hero-content > *:nth-child(2) { animation-delay: 0.1s; }
+.loaded .hero-content > *:nth-child(3) { animation-delay: 0.2s; }
+.loaded .hero-content > *:nth-child(4) { animation-delay: 0.3s; }
+
+/* Intersection Observer Animations */
+.animate-out {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), 
+                transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Header scroll effect */
+.header.scrolled {
+    background: rgba(233, 30, 99, 0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-medium);
+}
+
+/* Form error styles */
+.field-error {
+    color: var(--primary-pink);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+/* Mobile menu body lock */
+.menu-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+/* Performance optimizations */
+.service-card, .location-card {
+    will-change: transform;
+    transform: translateZ(0); /* Enable hardware acceleration */
+}
+
+.service-card:hover, .location-card:hover {
+    transform: translateY(-5px) translateZ(0);
+}
+
+/* Lazy loading placeholder */
+img[loading="lazy"] {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading-placeholder 1.5s infinite;
+}
+
+@keyframes loading-placeholder {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Critical performance styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Optimize font rendering */
+.hero-title, h1, h2, h3 {
+    font-display: swap;
+    text-rendering: optimizeLegibility;
 }
 
 .container {

@@ -7,16 +7,15 @@
     
     <!-- Favicon & App Icons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16x16.svg">
     <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon-32x32.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileImage" content="/apple-touch-icon.svg">
+    <meta name="msapplication-TileImage" content="/apple-touch-icon.png">
     <meta name="msapplication-TileColor" content="#ec4899">
     <meta name="msapplication-config" content="/browserconfig.xml">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="mask-icon" href="/favicon-32x32.svg" color="#ec4899">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ec4899">
     
     <!-- Advanced SEO Meta Tags -->
     <meta name="description" content="Escorts In Chinchpokli | Premium verified escorts Mumbai 24/7 | Elite companions with discretion | Book Chinchpokli escorts +91-9867564994">
