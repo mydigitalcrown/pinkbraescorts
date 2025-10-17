@@ -1,5 +1,5 @@
 # Robots.txt for Pink Bra Escorts Mumbai - SEO Optimized
-# Updated: 2025-10-16
+# Updated: 2025-10-17
 
 # Default rule for all search engines
 User-agent: *
