@@ -1,0 +1,60 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.ico
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.cache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SEO Reports (documentation only, not for production)
+*-SEO-*.md
+*-REPORT.md
+*-VERIFICATION.md
+*-OPTIMIZATION-*.md
+*-ACHIEVEMENT-*.md
+*-STATUS.md
+*-ISSUES.md
+*-COMPLETE.md
+*-INSTRUCTIONS.md
+BATCH_*.md
+FIX_*.md
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.local
+.env.*.local
