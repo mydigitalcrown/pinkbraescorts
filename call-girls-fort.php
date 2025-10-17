@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏆 Call Girls In Fort | #1 Premium Call Girls In Fort | 24/7 Elite Companions</title>
+    <title>🏆 Best Call Girls Fort | #1 Premium 24/7 Mumbai</title>
     
     <!-- Favicon & App Icons -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16x16.svg">
-    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon-32x32.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileImage" content="/apple-touch-icon.svg">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="favicon-32x32.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="favicon-16x16.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.svg">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ec4899">
     <meta name="msapplication-TileColor" content="#ec4899">
-    <meta name="msapplication-config" content="/browserconfig.xml">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="mask-icon" href="/favicon-32x32.svg" color="#ec4899">
+    <meta name="msapplication-TileImage" content="apple-touch-icon.svg">
     
     <!-- Advanced SEO Meta Tags -->
     <meta name="description" content="🏆 #1 Call Girls In Fort | Premium Call Girls In Fort Mumbai | Elite companions 24/7 available | Verified Call Girls In Fort | Professional discretion guaranteed | Book now +91-9867564994">
@@ -29,8 +27,8 @@
     <meta name="content-language" content="en-IN">
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Fort, Mumbai, Maharashtra, India">
-    <meta name="geo.position" content="19.1598;73.0121">
-    <meta name="ICBM" content="19.1598, 73.0121">
+    <meta name="geo.position" content="18.9330;72.8355">
+    <meta name="ICBM" content="18.9330, 72.8355">
     <meta name="location" content="Fort, Mumbai, Maharashtra, India">
     
     <!-- Enhanced Local SEO -->
@@ -75,7 +73,7 @@
     <meta property="business:contact_data:street_address" content="Fort, Mumbai">
     <meta property="business:contact_data:locality" content="Fort">
     <meta property="business:contact_data:region" content="Maharashtra">
-    <meta property="business:contact_data:postal_code" content="400708">
+    <meta property="business:contact_data:postal_code" content="400001">
     <meta property="business:contact_data:country_name" content="India">
     <meta property="business:contact_data:phone_number" content="+91-9867564994">
     
@@ -104,7 +102,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/call-girls-fort.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/call-girls-fort.php">
     <link rel="preload" href="images/locations/mumbai/fort-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -155,13 +152,13 @@
             "streetAddress": "Fort Business District",
             "addressLocality": "Fort",
             "addressRegion": "Maharashtra",
-            "postalCode": "400708",
+            "postalCode": "400001",
             "addressCountry": "IN"
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 19.1598,
-            "longitude": 73.0121
+            "latitude": 18.9330,
+            "longitude": 72.8355
         },
      "areaServed": [
             {
@@ -185,8 +182,8 @@
             "@type": "GeoCircle",
             "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": 19.1598,
-                "longitude": 73.0121
+                "latitude": 18.9330,
+                "longitude": 72.8355
             },
             "geoRadius": "5000"
         },
@@ -536,18 +533,12 @@
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Mumbai Call Girls",
-                "item": "https://pinkbraescort.in/mumbai-call-girls.php"
+                "name": "Call Girls Mumbai",
+                "item": "https://pinkbraescort.in/call-girls-mumbai.php"
             },
             {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Navi Mumbai Call Girls",
-                "item": "https://pinkbraescort.in/navi-mumbai-call-girls.php"
-            },
-            {
-                "@type": "ListItem",
-                "position": 4,
                 "name": "Call Girls In Fort",
                 "item": "https://pinkbraescort.in/call-girls-fort.php"
             }

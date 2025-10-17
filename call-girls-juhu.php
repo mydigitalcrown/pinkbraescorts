@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏆 Call Girls In Juhu | #1 Premium Call Girls Juhu Mumbai | 24/7 Elite Companions</title>
+    <title>🏆 Best Call Girls Juhu | #1 Premium 24/7 Mumbai</title>
     
     <!-- Favicon & App Icons -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16x16.svg">
-    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon-32x32.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileImage" content="/apple-touch-icon.svg">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="favicon-32x32.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="favicon-16x16.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.svg">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ec4899">
     <meta name="msapplication-TileColor" content="#ec4899">
-    <meta name="msapplication-config" content="/browserconfig.xml">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="mask-icon" href="/favicon-32x32.svg" color="#ec4899">
+    <meta name="msapplication-TileImage" content="apple-touch-icon.svg">
     
     <!-- Advanced SEO Meta Tags -->
     <meta name="description" content="🏆 #1 Call Girls In Juhu | Premium Call Girls Juhu Mumbai | Elite companions 24/7 available | Verified Juhu call girls | Professional discretion guaranteed | Book now +91-9867564994">
@@ -104,7 +102,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/call-girls-juhu.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/call-girls-juhu.php">
     <link rel="preload" href="images/locations/mumbai/juhu-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -536,18 +533,12 @@
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Mumbai Call Girls",
-                "item": "https://pinkbraescort.in/mumbai-call-girls.php"
+                "name": "Call Girls Mumbai",
+                "item": "https://pinkbraescort.in/call-girls-mumbai.php"
             },
             {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Mumbai Call Girls",
-                "item": "https://pinkbraescort.in/mumbai-call-girls.php"
-            },
-            {
-                "@type": "ListItem",
-                "position": 4,
                 "name": "Call Girls In Juhu",
                 "item": "https://pinkbraescort.in/call-girls-juhu.php"
             }
@@ -562,7 +553,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Call Girls In Juhu"
+            "name": "Call Girls In Juhu",
+            "description": "Premium call girl services in Juhu, Mumbai offering elite companionship with verified call girls and complete discretion. Available 24/7 for all occasions.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Call Girls - Call Girls In Juhu"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Juhu"
+            }
         },
         "reviewRating": {
             "@type": "Rating",

@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏆 Call Girls In Kalwa | #1 Premium Call Girls Kalwa Thane | 24/7 Elite Companions</title>
+    <title>🏆 Best Call Girls Kalwa | #1 Premium 24/7 Thane</title>
     
     <!-- Favicon & App Icons -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16x16.svg">
-    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon-32x32.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileImage" content="/apple-touch-icon.svg">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="favicon-32x32.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="favicon-16x16.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.svg">
+    <meta name="msapplication-TileImage" content="apple-touch-icon.svg">
     <meta name="msapplication-TileColor" content="#ec4899">
-    <meta name="msapplication-config" content="/browserconfig.xml">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="mask-icon" href="/favicon-32x32.svg" color="#ec4899">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ec4899">
     
     <!-- Advanced SEO Meta Tags -->
     <meta name="description" content="🏆 #1 Call Girls In Kalwa | Premium Call Girls Kalwa Thane | Elite companions 24/7 available | Verified Kalwa call girls | Professional discretion guaranteed | Book now +91-9867564994">
@@ -104,7 +102,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/call-girls-kalwa.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/call-girls-kalwa.php">
     <link rel="preload" href="images/locations/mumbai/kalwa-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -536,12 +533,18 @@
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Thane Call Girls",
-                "item": "https://pinkbraescort.in/thane-call-girls.php"
+                "name": "Mumbai Call Girls",
+                "item": "https://pinkbraescort.in/call-girls-mumbai.php"
             },
             {
                 "@type": "ListItem",
                 "position": 3,
+                "name": "Navi Mumbai Call Girls",
+                "item": "https://pinkbraescort.in/call-girls-navi-mumbai.php"
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
                 "name": "Call Girls In Kalwa",
                 "item": "https://pinkbraescort.in/call-girls-kalwa.php"
             }
@@ -556,7 +559,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Call Girls In Kalwa"
+            "name": "Call Girls In Kalwa",
+            "description": "Premium call girl services in Kalwa, Thane offering elite companionship with professional discretion and verified companions available 24/7",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Call Girls - Call Girls In Kalwa"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Kalwa"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
