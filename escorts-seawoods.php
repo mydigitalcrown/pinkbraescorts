@@ -132,8 +132,6 @@
     <!-- Geo-location for Local SEO -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Seawoods, Navi Mumbai">
-    <meta name="geo.position" content="19.1568;73.0106">
-    <meta name="ICBM" content="19.1568, 73.0106">
     <meta name="location" content="Seawoods, Navi Mumbai, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->
@@ -518,8 +516,8 @@
             "@type": "GeoCircle",
             "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "19.1568",
-                "longitude": "73.0106"
+                "latitude": "19.0314",
+                "longitude": "73.0199"
             },
             "geoRadius": "5000"
         },
@@ -667,8 +665,8 @@
             "name": "Seawoods, Navi Mumbai",
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": "19.1568",
-                "longitude": "73.0106"
+                "latitude": "19.0314",
+                "longitude": "73.0199"
             }
         },
         "expertise": "7+ years serving Seawoods area with professional excellence",
@@ -774,7 +772,7 @@
     <meta name="region" content="Navi Mumbai">
     <meta name="country" content="India">
     <meta name="zipcode" content="400708">
-    <meta name="coordinates" content="19.1568, 73.0106">
+    <meta name="coordinates" content="19.0314, 73.0199">
     <meta name="address" content="Seawoods, Navi Mumbai, Maharashtra 400708">
     
     <!-- Custom Styles -->

@@ -127,7 +127,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/escorts-mumbai.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-mumbai.php">
     <link rel="preload" href="images/locations/mumbai/mumbai-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -146,8 +145,6 @@
     <!-- Geo-location for Local SEO -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Mumbai Central, Navi Mumbai">
-    <meta name="geo.position" content="19.1568;73.0106">
-    <meta name="ICBM" content="19.1568, 73.0106">
     <meta name="location" content="Mumbai Central, Navi Mumbai, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->
@@ -708,7 +705,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Mumbai Central"
+            "name": "Escorts In Mumbai",
+            "description": "Premium escort services in Mumbai offering elite companionship with verified escorts and complete discretion. Available 24/7 for all Mumbai areas.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Mumbai"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Mumbai"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -719,7 +725,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Mumbai Central. Professional, discreet, and reliable. The escorts in Mumbai Central provided outstanding companionship with complete privacy."
+        "datePublished": "2024-01-15",
+        "reviewBody": "Exceptional escort service in Mumbai. Professional, discreet, and reliable. The escorts in Mumbai provided outstanding companionship with complete privacy."
     }
     </script>
     
@@ -761,7 +768,7 @@
     <meta name="region" content="Navi Mumbai">
     <meta name="country" content="India">
     <meta name="zipcode" content="400708">
-    <meta name="coordinates" content="19.1568, 73.0106">
+    <meta name="coordinates" content="19.0760, 72.8777">
     <meta name="address" content="Mumbai Central, Navi Mumbai, Maharashtra 400708">
     
     <!-- Custom Styles -->

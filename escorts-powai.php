@@ -141,7 +141,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/escorts-powai.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-powai.php">
     <link rel="preload" href="images/locations/mumbai/powai-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -157,12 +156,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     
-    <!-- Geo-location for Local SEO -->
-    <meta name="geo.region" content="IN-MH">
-    <meta name="geo.placename" content="Powai, Navi Mumbai">
-    <meta name="geo.position" content="19.1568;73.0106">
-    <meta name="ICBM" content="19.1568, 73.0106">
-    <meta name="location" content="Powai, Navi Mumbai, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->
     
@@ -524,8 +517,8 @@
             "@type": "GeoCircle",
             "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "19.1568",
-                "longitude": "73.0106"
+                "latitude": "19.1176",
+                "longitude": "72.9060"
             },
             "geoRadius": "5000"
         },
@@ -636,7 +629,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Powai"
+            "name": "Escorts In Powai",
+            "description": "Premium escort services in Powai with verified professionals, 24/7 availability, complete discretion, and luxury companionship for tech professionals, business executives, and tourists visiting Powai Lake area.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Powai"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Powai"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -647,7 +649,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Powai. Professional, discreet, and reliable. The escorts in Powai provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional escort service in Powai. Professional, discreet, and reliable. The escorts in Powai provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-01-15"
     }
     </script>
     

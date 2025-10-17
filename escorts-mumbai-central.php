@@ -127,7 +127,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/escorts-mumbai-central.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-mumbai-central.php">
     <link rel="preload" href="images/locations/mumbai/mumbai-central-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -146,8 +145,6 @@
     <!-- Geo-location for Local SEO -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Mumbai Central, Navi Mumbai">
-    <meta name="geo.position" content="19.1568;73.0106">
-    <meta name="ICBM" content="19.1568, 73.0106">
     <meta name="location" content="Mumbai Central, Navi Mumbai, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->
@@ -596,8 +593,8 @@
             "@type": "GeoCircle",
             "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "19.1568",
-                "longitude": "73.0106"
+                "latitude": "18.9690",
+                "longitude": "72.8205"
             },
             "geoRadius": "5000"
         },
@@ -708,7 +705,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Mumbai Central"
+            "name": "Escorts In Mumbai Central",
+            "description": "Premium escort services in Mumbai Central offering elite companionship with verified escorts and complete discretion. Available 24/7 for Mumbai Central railway station and surrounding areas.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Mumbai Central"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Mumbai Central"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -719,6 +725,7 @@
             "@type": "Person",
             "name": "Verified Client"
         },
+        "datePublished": "2024-01-15",
         "reviewBody": "Exceptional escort service in Mumbai Central. Professional, discreet, and reliable. The escorts in Mumbai Central provided outstanding companionship with complete privacy."
     }
     </script>
@@ -761,7 +768,7 @@
     <meta name="region" content="Navi Mumbai">
     <meta name="country" content="India">
     <meta name="zipcode" content="400708">
-    <meta name="coordinates" content="19.1568, 73.0106">
+    <meta name="coordinates" content="18.9690, 72.8205">
     <meta name="address" content="Mumbai Central, Navi Mumbai, Maharashtra 400708">
     
     <!-- Custom Styles -->

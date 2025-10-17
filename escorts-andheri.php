@@ -129,7 +129,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/escorts-andheri.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-andheri.php">
     <link rel="preload" href="images/locations/mumbai/andheri-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -616,14 +615,23 @@
     }
     </script>
     
-    <!-- Review Schema for EEAT -->
+    <!-- Review Schema for EEAT - FIXED -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Andheri"
+            "name": "Escorts In Andheri",
+            "description": "Premium escort services in Andheri, Mumbai offering elite companionship with complete discretion and professional service.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Andheri"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Andheri, Mumbai"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -634,7 +642,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Andheri. Professional, discreet, and reliable. The escorts in Andheri provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional Escorts In Andheri service. Professional, discreet, and reliable. The Escorts In Andheri team provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-11-15"
     }
     </script>
     

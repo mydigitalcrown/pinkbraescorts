@@ -122,7 +122,6 @@
     <link rel="alternate" hreflang="x-default" href="https://pinkbraescort.in/escorts-vasai.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-vasai.php">
     <link rel="alternate" type="application/rss+xml" title="Pink Bra Escorts RSS Feed" href="https://pinkbraescort.in/rss.xml">
     <link rel="alternate" media="only screen and (max-width: 640px)" href="https://pinkbraescort.in/escorts-vasai.php">
     <link rel="preload" href="images/locations/mumbai/vasai-escorts.webp" as="image">
@@ -717,7 +716,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Vasai"
+            "name": "Escorts In Vasai",
+            "description": "Premium escort services in Vasai, Palghar offering 24/7 verified companions with professional discretion and quality service.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Vasai"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Vasai"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -728,7 +736,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Vasai. Professional, discreet, and reliable. The escorts in Vasai provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional escort service in Vasai. Professional, discreet, and reliable. The escorts in Vasai provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-09-15"
     }
     </script>
     

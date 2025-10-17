@@ -106,7 +106,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/escorts-belapur.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-belapur.php">
     <link rel="preload" href="images/locations/mumbai/belapur-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -557,14 +556,23 @@
     }
     </script>
     
-    <!-- Review Schema for EEAT -->
+    <!-- Review Schema for EEAT - FIXED -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Belapur"
+            "name": "Escorts In Belapur",
+            "description": "Premium escort services in Belapur, Navi Mumbai offering elite companionship with complete discretion and professional service.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Belapur"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Belapur, Navi Mumbai"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -575,7 +583,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Belapur. Professional, discreet, and reliable. The escorts in Belapur provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional Escorts In Belapur service. Professional, discreet, and reliable. The Escorts In Belapur team provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-11-15"
     }
     </script>
     

@@ -146,8 +146,6 @@
     <!-- Geo-location for Local SEO -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Santacruz, Navi Mumbai">
-    <meta name="geo.position" content="19.1068;73.0037">
-    <meta name="ICBM" content="19.1068, 73.0037">
     <meta name="location" content="Santacruz, Navi Mumbai, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->
@@ -570,8 +568,8 @@
             "@type": "GeoCircle",
             "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "19.1068",
-                "longitude": "73.0037"
+                "latitude": "19.0825",
+                "longitude": "72.8417"
             },
             "geoRadius": "5000"
         },
@@ -820,7 +818,7 @@
     <meta name="region" content="Navi Mumbai">
     <meta name="country" content="India">
     <meta name="zipcode" content="400705">
-    <meta name="coordinates" content="19.1068, 73.0037">
+    <meta name="coordinates" content="19.0825, 72.8417">
     <meta name="address" content="Santacruz, Navi Mumbai, Maharashtra 400705">
     
     <!-- Custom Styles -->

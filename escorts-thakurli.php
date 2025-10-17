@@ -135,7 +135,6 @@
     <link rel="alternate" hreflang="x-default" href="https://pinkbraescort.in/escorts-thakurli.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-thakurli.php">
     <link rel="preload" href="images/locations/mumbai/thakurli-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -593,7 +592,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Thakurli"
+            "name": "Escorts In Thakurli",
+            "description": "Premium escort services in Thakurli Railway Station area, Mumbai offering 24/7 verified professional companions with complete discretion and quality service.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Thakurli"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Thakurli"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -604,7 +612,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Thakurli. Professional, discreet, and reliable. The escorts in Thakurli provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional escort service in Thakurli. Professional, discreet, and reliable. The escorts in Thakurli provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-01-15"
     }
     </script>
     

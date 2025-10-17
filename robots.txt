@@ -1,123 +1,19 @@
-# Robots.txt for Pink Bra Escorts Mumbai - AI & SEO Optimized
-# Updated: 2025-08-29
+# Robots.txt for Pink Bra Escorts Mumbai - SEO Optimized
+# Updated: 2025-10-16
 
-# Allow all major search engines and AI crawlers
+# Default rule for all search engines
 User-agent: *
-Allow: /
-
-# Specific instructions for Google
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-# Specific instructions for Bing
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-# Yahoo search bot
-User-agent: Slurp
-Allow: /
-Crawl-delay: 1
-
-# DuckDuckGo
-User-agent: DuckDuckBot
-Allow: /
-Crawl-delay: 1
-
-# AI Training Bots
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-# Yandex (Russian search engine)
-User-agent: YandexBot
-Allow: /
-Crawl-delay: 2
-
-# Baidu (Chinese search engine)
-User-agent: Baiduspider
-Allow: /
-Crawl-delay: 2
-
-# Allow all HTML pages (SEO-friendly URLs)
-Allow: /index.html
-Allow: /services.html
-Allow: /about.html
-Allow: /contact.html
-Allow: /gallery.html
-Allow: /arab-girls-mumbai.html
-Allow: /escorts-*.html
-Allow: /*-mumbai.html
-Allow: /celebrity-escorts-mumbai.html
-Allow: /vip-escorts-mumbai.html
-Allow: /russian-escorts-mumbai.html
-Allow: /independent-escorts-mumbai.html
-
-# Allow essential business pages
-Allow: /privacy-policy.html
-Allow: /terms-of-service.html
-
-# Allow all location pages and important PHP files
-Allow: /call-girls-*.php
-Allow: /about.php
-Allow: /services.php
-Allow: /contact.php
-Allow: /gallery.php
-Allow: /index.php
-Allow: /*-mumbai.php
-Allow: /*-navi-mumbai.php
-
-# Disallow only specific PHP files (backend processing)
 Disallow: /generate_service_page.php
 Disallow: /create_all_pages.php
 Disallow: /contact_handler.php
 Disallow: /includes/
 Disallow: /admin/
 Disallow: /private/
-Disallow: /*.txt
 Disallow: /demo.html
 Disallow: /favicon-generator.html
 Disallow: /test/
 Disallow: /backup/
-Disallow: /*.log
+Allow: /
 
-# Allow images and assets for SEO
-Allow: /images/
-Allow: /assets/
-Allow: /style.css
-Allow: /script.js
-Allow: /*.webp
-Allow: /*.jpg
-Allow: /*.jpeg
-Allow: /*.png
-Allow: /*.gif
-Allow: /*.svg
-Allow: /*.ico
-Allow: /site.webmanifest
-Allow: /favicon.ico
-
-# Sitemap locations
-Sitemap: https://pinkbra.in/sitemap.xml
-Sitemap: https://pinkbra.in/sitemap-images.xml
-Sitemap: https://pinkbra.in/sitemap-mobile.xml
-
-# Crawl delay for better server performance
-Crawl-delay: 1
-
-# Cache directive for crawlers
-Cache-delay: 86400
-
-# Request rate (pages per minute)
-Request-rate: 1/10s
-
-# Visit time (time to wait between visits)
-Visit-time: 0100-2359
+# Sitemap location
+Sitemap: https://pinkbraescort.in/sitemap.xml

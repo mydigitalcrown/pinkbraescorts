@@ -144,12 +144,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     
-    <!-- Geo-location for Local SEO -->
-    <meta name="geo.region" content="IN-MH">
-    <meta name="geo.placename" content="Prabhadevi, Mumbai">
-    <meta name="geo.position" content="19.0144;72.8311">
-    <meta name="ICBM" content="19.0144, 72.8311">
-    <meta name="location" content="Prabhadevi, Mumbai, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->
     

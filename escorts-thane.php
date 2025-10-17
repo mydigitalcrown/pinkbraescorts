@@ -122,7 +122,6 @@
     <link rel="alternate" hreflang="x-default" href="https://pinkbraescort.in/escorts-thane.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-thane.php">
     <link rel="alternate" type="application/rss+xml" title="Pink Bra Escorts RSS Feed" href="https://pinkbraescort.in/rss.xml">
     <link rel="alternate" media="only screen and (max-width: 640px)" href="https://pinkbraescort.in/escorts-thane.php">
     <link rel="preload" href="images/locations/mumbai/thane-escorts.webp" as="image">
@@ -635,7 +634,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Thane"
+            "name": "Escorts In Thane",
+            "description": "Premium escort services in Thane City offering 24/7 verified professional companions with complete discretion and quality service in Thane West and Thane East areas.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Thane"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Thane"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -646,7 +654,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Thane. Professional, discreet, and reliable. The escorts in Thane provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional escort service in Thane. Professional, discreet, and reliable. The escorts in Thane provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-01-15"
     }
     </script>
     

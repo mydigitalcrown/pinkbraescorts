@@ -138,8 +138,6 @@
     <!-- Geo-location for Local SEO -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Saphale, Palghar">
-    <meta name="geo.position" content="19.6667;72.7167">
-    <meta name="ICBM" content="19.6667, 72.7167">
     <meta name="location" content="Saphale, Palghar, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->

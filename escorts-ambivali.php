@@ -106,7 +106,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/escorts-ambivali.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-ambivali.php">
     <link rel="preload" href="images/locations/mumbai/ambivali-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -557,14 +556,23 @@
     }
     </script>
     
-    <!-- Review Schema for EEAT -->
+    <!-- Review Schema for EEAT - FIXED -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Ambivali"
+            "name": "Escorts In Ambivali",
+            "description": "Premium escort services in Ambivali, Mumbai offering elite companionship with complete discretion and professional service.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Ambivali"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Ambivali, Mumbai"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -575,7 +583,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Ambivali. Professional, discreet, and reliable. The escorts in Ambivali provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional Escorts In Ambivali service. Professional, discreet, and reliable. The Escorts In Ambivali team provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-11-15"
     }
     </script>
     

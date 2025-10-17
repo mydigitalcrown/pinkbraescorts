@@ -1,12 +1,16 @@
 # Pink Bra Escorts Website - AI Coding Instructions
 
+**Last Updated:** October 16, 2025  
+**Pages:** 300+ location pages + 40+ service category pages  
+**SEO Score Target:** 100/100 (Technical + On-Page + VSO + ASO + EEAT)
+
 ## Project Architecture
 
 ### Core Technology Stack
 - **Backend**: Pure PHP (no framework) with include-based component system
 - **Frontend**: Tailwind CSS (CDN) + custom CSS variables + vanilla JavaScript
-- **SEO Engine**: Extensive JSON-LD structured data, voice/AI search meta tags
-- **URL System**: Apache `.htaccess` rewriting (`.php` files serve as `.html` URLs)
+- **SEO Engine**: Extensive JSON-LD structured data, voice/AI search meta tags (15+ schemas per page)
+- **URL System**: Apache `.htaccess` rewriting (`.php` files serve as `.html` URLs with 301 redirects)
 
 ### File Organization Pattern
 ```
@@ -18,6 +22,7 @@ pinkbraphp/
 │   ├── header.php                  # Fixed nav with mobile hamburger menu
 │   ├── footer.php                  # Contact info, social links, legal
 │   ├── services.php, locations.php # Content sections
+│   ├── url-helpers.php             # URL generation utilities (cleanUrl, canonicalUrl)
 │   └── router.php                  # URL routing class (rarely used)
 ├── contact_handler.php             # Form processor with sanitization
 ├── style.css                       # CSS variables + performance optimizations
@@ -68,8 +73,11 @@ When creating new location pages:
 **CRITICAL JSON-LD Schema Requirements** (as of Oct 2025):
 - **Review schema**: `itemReviewed` MUST include `description`, `provider`, and `areaServed` properties
 - **Service schema**: Must include `serviceType`, `provider`, and `areaServed` for Google validation
-- Reference `BATCH_FIX_COMPLETE_REPORT.md` for schema validation patterns
-- Test all schemas at `search.google.com/test/rich-results`
+- **AMP removed**: Do NOT add `<link rel="amphtml">` tags - site no longer uses AMP (causes crawl errors)
+- **Recent fixes**: 8 pages fixed in Oct 2025 batch (see `BATCH_FIX_COMPLETE_REPORT.md`)
+- **Remaining work**: ~290+ location pages still need same schema fixes
+- **Testing**: Always validate at `search.google.com/test/rich-results` before deployment
+- **Reference template**: `escorts-malad.php` is the gold standard with all fixes applied
 
 ## Critical Development Patterns
 
@@ -77,12 +85,21 @@ When creating new location pages:
 ```apache
 # Users access: /escorts-andheri.html
 # Server executes: /escorts-andheri.php
-RewriteRule ^([^.]+)\.html$ /$1.php [L]
+# .php accessed directly → 301 redirects to .html
 
-# Canonical URLs in code use .php
+# The rewrite rules:
+RewriteCond %{THE_REQUEST} /([^.]+)\.php[\s?] [NC]
+RewriteRule ^ /%1.html? [R=301,L]  # Redirect .php to .html
+
+RewriteRule ^([^.]+)\.html$ /$1.php [L]  # Internal rewrite .html → .php
+
+# Canonical URLs in code always use .php
 <link rel="canonical" href="https://pinkbraescort.in/escorts-andheri.php">
 ```
-**Rule**: Always reference `.php` in code; `.htaccess` handles `.html` presentation.
+**Rules**: 
+- Always reference `.php` in canonical URLs, internal links, and schemas
+- `.htaccess` automatically handles `.html` presentation and 301 redirects
+- Never create actual `.html` files - they're virtual URLs
 
 ### Component Include Pattern
 ```php
@@ -111,15 +128,28 @@ RewriteRule ^([^.]+)\.html$ /$1.php [L]
 ```
 Use these variables, not hex codes. Present in `/style.css` and inline styles.
 
-### JavaScript Animation Patterns
-Location pages have elaborate animation systems:
-```javascript
-// Initialize on DOMContentLoaded
-initMaladAnimations();  // Spinning icons
-initLuxuryAnimations(); // Floating hero sections
-initNaviEffects();      // Card hover effects
+### Location Page Animation Patterns
+Location pages use CSS animations (no JavaScript required):
+```css
+/* Common animation classes used across location pages */
+.hero-animation { animation: ulwe-float 7s ease-in-out infinite; }
+.service-card { animation: navi-rotate 8s ease-in-out infinite; }
+.badge-icon { animation: premium-spin 10s linear infinite; }
+
+/* Typical keyframe animations found in location pages */
+@keyframes ulwe-float { /* floating effect */ }
+@keyframes navi-rotate { /* rotating effect */ }
+@keyframes premium-spin { /* spinning effect */ }
+@keyframes ulwe-shine { /* shining effect */ }
+@keyframes premium-glow { /* glowing effect */ }
+@keyframes luxury-flow { /* flowing effect */ }
+@keyframes luxury-heartbeat { /* pulsing effect */ }
 ```
-**When copying location pages**: Keep animation function names unique (e.g., `initMaladAnimations` → `initAndheriAnimations`).
+**When copying location pages**: 
+- Animation keyframes are defined inline in `<style>` tags
+- Each location may have unique animation names (e.g., `ulwe-float`, `navi-rotate`)
+- Keep animation names unique per page to avoid conflicts
+- Animations are performance-optimized with `will-change` and `transform` properties
 
 ## Location Page Conventions
 
@@ -152,10 +182,10 @@ Use Google Maps to get coordinates:
 ```php
 Phone: +91-9867564994                     // Hardcoded in all CTAs
 WhatsApp: api.whatsapp.com/send?phone=919867564994
-Email: sanjayadotsingh@gmail.com          // contact_handler.php recipient (NOTE: typo in original)
+Email: sanjanadotsingh@gmail.com          // contact_handler.php recipient
 Domain: https://pinkbraescort.in          // All canonical URLs
 ```
-**Note**: Email in contact_handler.php has typo "sanjanadotsingh" vs "sanjayadotsingh" - verify which is correct.
+**Note**: The email has a typo in the code (`sanjayadotsingh` vs `sanjanadotsingh`). Use the version found in `contact_handler.php` when updating.
 
 ## Performance & Technical Requirements
 
@@ -175,17 +205,69 @@ When adding new pages, update `sitemap.xml`:
     <priority>0.9</priority>         <!-- Major: 0.9, suburbs: 0.7, services: 0.8 -->
 </url>
 ```
+**Priority Guidelines**:
+- `1.0`: Homepage only
+- `0.95`: Main Mumbai page (`escorts-mumbai.php`)
+- `0.9`: High-traffic central locations (Andheri, Bandra, Juhu, Colaba, Powai)
+- `0.8`: Service category pages (VIP, Celebrity, Russian, etc.)
+- `0.7`: Suburbs and outer areas
+- `0.6`: About page
+- `0.3`: Privacy/Terms pages
+
+**Changefreq Guidelines**:
+- `daily`: Homepage, main Mumbai page, high-traffic locations
+- `weekly`: Service categories, suburbs
+- `monthly`: About, contact pages
+- `yearly`: Privacy policy, terms of service
 
 ### Header Cache Control (.htaccess)
 Performance headers already configured:
-- CSS/JS/Images: 1 year cache
-- HTML/PHP: 1 hour cache
-- Gzip compression enabled
-- ETags removed
+- CSS/JS/Images: 1 year cache (`max-age=31536000`)
+- HTML/PHP: 1 hour cache (`max-age=3600`)
+- Gzip compression enabled for text files
+- ETags removed (`FileETag None`)
+- Security headers: `X-Content-Type-Options`, `X-Frame-Options`, `X-XSS-Protection`
 
-**Don't modify** unless adding new file types.
+**Don't modify** unless adding new file types or changing security policies.
 
 ## Common Development Tasks
+
+### Task: Fix JSON-LD Schema Errors (Apply to ~290 Remaining Pages)
+**Context**: 8 pages fixed in Oct 2025, 290+ still need same fixes (see `BATCH_FIX_COMPLETE_REPORT.md`)
+
+**Issue 1: Review Schema - Missing Required Properties**
+```json
+// ❌ WRONG (causes Google rejection)
+"itemReviewed": {
+    "@type": "Service",
+    "name": "Escorts In [Location]"
+}
+
+// ✅ CORRECT (add these 3 properties)
+"itemReviewed": {
+    "@type": "Service",
+    "name": "Escorts In [Location]",
+    "description": "Premium escort services in [Location]...",  // ADD THIS
+    "provider": {                                                // ADD THIS
+        "@type": "Organization",
+        "name": "Pink Bra Escorts - Escorts In [Location]"
+    },
+    "areaServed": {                                             // ADD THIS
+        "@type": "City",
+        "name": "[Location]"
+    }
+}
+```
+
+**Issue 2: AMP Link Removal**
+```html
+<!-- ❌ REMOVE THIS (causes crawl errors - AMP doesn't exist) -->
+<link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-[location].php">
+
+<!-- ✅ Page should have NO amphtml link -->
+```
+
+**Validation**: Test at `search.google.com/test/rich-results` - must show green checkmarks.
 
 ### Task: Add New Location Page
 ```bash
@@ -202,11 +284,8 @@ sed -i '' 's/malad/newarea/g' escorts-newarea.php
 #    - Line ~150-162: LocalBusiness.geo JSON-LD
 #    - Line ~180-190: GeoCircle.geoMidpoint JSON-LD
 
-# 4. Update animation function names to avoid conflicts:
-#    initMaladAnimations() → initNewareaAnimations()
-
-# 5. Add to sitemap.xml
-# 6. Test: Open /escorts-newarea.html in browser
+# 4. Add to sitemap.xml
+# 5. Test: Open /escorts-newarea.html in browser
 ```
 
 ### Task: Update Contact Information
@@ -269,6 +348,7 @@ Before deploying any page:
 ❌ Use absolute paths in includes (`/includes/header.php` → `includes/header.php`)  
 ❌ Modify `.htaccess` rewrite rules without testing  
 ❌ Remove or simplify SEO sections ("too much metadata")  
+❌ Add `<link rel="amphtml">` declarations (AMP removed, causes crawl errors)  
 ❌ Use database calls (site is purely file-based)  
 ❌ Add NPM/Composer dependencies (CDN-only)  
 ❌ Change color scheme without updating CSS variables  
@@ -283,3 +363,107 @@ This site targets voice assistants (Google Assistant, Alexa) and AI crawlers (Ch
 - **Dataset schema**: Trains AI on voice query patterns (hidden from users)
 
 **Philosophy**: Over-optimize for AI/voice search even if not visible to users. Future-proofing for 2025+ search trends.
+
+## Batch Schema Fixing Workflow
+When fixing JSON-LD schema errors across multiple pages (based on `BATCH_FIX_COMPLETE_REPORT.md`):
+
+### Systematic Approach
+1. **Identify pages needing fixes**: Use `grep` to find pages with old schema patterns
+2. **Test one page first**: Apply fixes to one page, validate with Google Rich Results Test
+3. **Create checklist**: Document exact line numbers and changes needed
+4. **Batch process**: Apply identical fixes across multiple pages
+5. **Validation sweep**: Test random sample of fixed pages
+
+### Common Multi-Page Fix Commands
+```bash
+# Find all pages with old Review schema pattern
+grep -l '"itemReviewed"' escorts-*.php call-girls-*.php
+
+# Count pages needing AMP link removal
+grep -c 'rel="amphtml"' *.php
+
+# Find pages missing provider property in itemReviewed
+grep -L '"provider":' escorts-*.php | wc -l
+
+# Verify all fixes applied (should return 0)
+grep -l 'rel="amphtml"' escorts-*.php | wc -l
+```
+
+### Post-Fix Documentation
+Create completion reports (like `BATCH_FIX_COMPLETE_REPORT.md`) documenting:
+- Pages fixed (with status table)
+- Issues resolved
+- Validation results
+- Expected timeline for Google indexing
+- Remaining work (if applicable)
+
+## SEO Documentation Reference
+The project includes extensive SEO reports documenting optimizations:
+- `BATCH_FIX_COMPLETE_REPORT.md`: Schema & AMP error fixes (8 pages Oct 2025)
+- `ESCORTS-MALAD-SEO-OPTIMIZATION-REPORT.md`: Individual page deep-dive
+- `PROJECT-SUMMARY-SEO-100.md`: Overall SEO achievement summary
+- `QUICK-START-100-SEO.md`: Quick reference for maintaining 100/100 scores
+
+**Use these as reference** when implementing SEO optimizations or fixing schema errors.
+
+## Advanced Debugging & Validation
+
+### Schema Validation Workflow
+```bash
+# 1. Local syntax check (JSON-LD)
+# Extract JSON-LD from page and validate at validator.schema.org
+
+# 2. Google Rich Results Test
+# Test at: search.google.com/test/rich-results
+# Required: All 15+ schemas show green checkmarks
+
+# 3. Common Schema Errors to Check
+# - Review.itemReviewed missing description/provider/areaServed
+# - Service missing serviceType/provider/areaServed  
+# - LocalBusiness geo coordinates match meta tags
+# - All @type declarations are valid Schema.org types
+```
+
+### URL Rewriting Test Checklist
+```bash
+# Test .php → .html redirect (should 301)
+curl -I https://pinkbraescort.in/escorts-vasai.php
+
+# Test .html access (should 200 OK)
+curl -I https://pinkbraescort.in/escorts-vasai.html
+
+# Test canonical tag points to .php
+curl -s https://pinkbraescort.in/escorts-vasai.html | grep canonical
+
+# Verify no .html files exist physically
+ls -la *.html | grep -v 404.html
+```
+
+### Performance Validation
+```bash
+# Check gzip compression active
+curl -H "Accept-Encoding: gzip" -I https://pinkbraescort.in/style.css
+
+# Verify cache headers on static assets (should show max-age=31536000)
+curl -I https://pinkbraescort.in/style.css | grep Cache-Control
+
+# Check HTML cache headers (should show max-age=3600)
+curl -I https://pinkbraescort.in/escorts-vasai.html | grep Cache-Control
+```
+
+## Quick Reference: Project Scale
+- **Location pages**: 300+ (150+ `call-girls-*`, 150+ `escorts-*`)
+- **Service pages**: 40+ (`{category}-escorts-mumbai.php`)
+- **Total sitemap URLs**: 1600+
+- **JSON-LD schemas per page**: 15+
+- **Meta tags per page**: 50+
+- **Average page size**: 2000-2500 lines (700+ lines SEO, 1500+ lines content)
+- **Geographic coverage**: Mumbai + suburbs (Palghar to Panvel, 60+ areas)
+- **SEO score target**: 100/100 (Technical + On-Page + VSO + ASO + EEAT)
+
+## Emergency Contacts & Deployment
+- **Email recipient**: `sanjanadotsingh@gmail.com` (contact_handler.php)
+- **Phone**: `+91-9867564994` (all CTAs)
+- **Domain**: `https://pinkbraescort.in`
+- **Deployment**: Direct FTP/file upload (no CI/CD pipeline)
+- **Testing environment**: Production only (test carefully before upload)

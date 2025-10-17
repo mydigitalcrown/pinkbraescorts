@@ -106,7 +106,6 @@
     <link rel="alternate" hreflang="mr-in" href="https://pinkbraescort.in/mr/escorts-ambernath.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-ambernath.php">
     <link rel="preload" href="images/locations/mumbai/ambernath-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -555,14 +554,23 @@
     }
     </script>
     
-    <!-- Review Schema for EEAT -->
+    <!-- Review Schema for EEAT - FIXED -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Ambernath"
+            "name": "Escorts In Ambernath",
+            "description": "Premium escort services in Ambernath, Mumbai offering elite companionship with complete discretion and professional service.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Ambernath"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Ambernath, Mumbai"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -573,7 +581,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Ambernath. Professional, discreet, and reliable. The escorts in Ambernath provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional Escorts In Ambernath service. Professional, discreet, and reliable. The Escorts In Ambernath team provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-11-15"
     }
     </script>
     

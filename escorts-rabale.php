@@ -101,8 +101,8 @@
     <meta name="content-language" content="en-IN">
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Rabale, Navi Mumbai, Maharashtra, India">
-    <meta name="geo.position" content="19.1568;73.0037">
-    <meta name="ICBM" content="19.1568, 73.0037">
+    <meta name="geo.position" content="19.1564;73.0091">
+    <meta name="ICBM" content="19.1564, 73.0091">
     <meta name="location" content="Rabale, Navi Mumbai, Maharashtra, India">
     
     <!-- Enhanced Local SEO -->
@@ -189,8 +189,6 @@
     <!-- Enhanced Geo-location for Local SEO -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Rabale, Navi Mumbai">
-    <meta name="geo.position" content="19.1568;73.0106">
-    <meta name="ICBM" content="19.1568, 73.0106">
     <meta name="location" content="Rabale, Navi Mumbai, Maharashtra, India">
     <meta name="DC.coverage" content="Rabale">
     <meta name="DC.creator" content="Pink Bra Escorts Rabale">
@@ -269,8 +267,8 @@
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 19.1568,
-            "longitude": 73.0037
+            "latitude": 19.1564,
+            "longitude": 73.0091
         },
      "areaServed": [
             {
@@ -294,8 +292,8 @@
             "@type": "GeoCircle",
             "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": 19.1568,
-                "longitude": 73.0037
+                "latitude": 19.1564,
+                "longitude": 73.0091
             },
             "geoRadius": "5000"
         },
@@ -564,8 +562,8 @@
             "@type": "GeoCircle",
             "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "19.1568",
-                "longitude": "73.0106"
+                "latitude": "19.1564",
+                "longitude": "73.0091"
             },
             "geoRadius": "5000"
         },
@@ -843,8 +841,8 @@
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 19.1568,
-            "longitude": 73.0037
+            "latitude": 19.1564,
+            "longitude": 73.0091
         },
         "serviceType": "Premium Escort Services",
         "category": "Professional Companionship",
@@ -962,7 +960,7 @@
     <meta name="region" content="Navi Mumbai">
     <meta name="country" content="India">
     <meta name="zipcode" content="400708">
-    <meta name="coordinates" content="19.1568, 73.0106">
+    <meta name="coordinates" content="19.1564, 73.0091">
     <meta name="address" content="Rabale, Navi Mumbai, Maharashtra 400708">
     
     <!-- Custom Styles -->

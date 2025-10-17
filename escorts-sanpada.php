@@ -146,8 +146,6 @@
     <!-- Geo-location for Local SEO -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Sanpada, Navi Mumbai">
-    <meta name="geo.position" content="19.1068;73.0037">
-    <meta name="ICBM" content="19.1068, 73.0037">
     <meta name="location" content="Sanpada, Navi Mumbai, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->

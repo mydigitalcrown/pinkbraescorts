@@ -138,7 +138,6 @@
     <link rel="alternate" hreflang="x-default" href="https://pinkbraescort.in/escorts-sion.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-sion.php">
     <link rel="preload" href="images/locations/mumbai/sion-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -621,8 +620,8 @@
             "@type": "GeoCircle",
             "geoMidpoint": {
                 "@type": "GeoCoordinates",
-                "latitude": "19.1568",
-                "longitude": "73.0106"
+                "latitude": "19.0433",
+                "longitude": "72.8648"
             },
             "geoRadius": "5000"
         },
@@ -733,7 +732,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Sion"
+            "name": "Escorts In Sion",
+            "description": "Premium escort services in Sion, Mumbai with verified profiles, 24/7 availability, and complete discretion. Professional companions for all occasions.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Sion"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Sion"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -744,7 +752,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Sion. Professional, discreet, and reliable. The escorts in Sion provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional escort service in Sion. Professional, discreet, and reliable. The escorts in Sion provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-01-15"
     }
     </script>
     
@@ -1014,7 +1023,7 @@
     <meta name="region" content="Navi Mumbai">
     <meta name="country" content="India">
     <meta name="zipcode" content="400708">
-    <meta name="coordinates" content="19.1568, 73.0106">
+    <meta name="coordinates" content="19.0433, 72.8648">
     <meta name="address" content="Sion, Navi Mumbai, Maharashtra 400708">
     
     <!-- Custom Styles -->

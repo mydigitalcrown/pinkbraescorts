@@ -122,7 +122,6 @@
     <link rel="alternate" hreflang="x-default" href="https://pinkbraescort.in/escorts-ulhasnagar.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-ulhasnagar.php">
     <link rel="alternate" type="application/rss+xml" title="Pink Bra Escorts RSS Feed" href="https://pinkbraescort.in/rss.xml">
     <link rel="alternate" media="only screen and (max-width: 640px)" href="https://pinkbraescort.in/escorts-ulhasnagar.php">
     <link rel="preload" href="images/locations/mumbai/ulhasnagar-escorts.webp" as="image">
@@ -639,7 +638,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Ulhasnagar"
+            "name": "Escorts In Ulhasnagar",
+            "description": "Premium escort services in Ulhasnagar industrial hub, Thane offering 24/7 verified professional companions with complete discretion and quality service.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Ulhasnagar"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Ulhasnagar"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -650,7 +658,8 @@
             "@type": "Person",
             "name": "Verified Client"
         },
-        "reviewBody": "Exceptional escort service in Ulhasnagar. Professional, discreet, and reliable. The escorts in Ulhasnagar provided outstanding companionship with complete privacy."
+        "reviewBody": "Exceptional escort service in Ulhasnagar. Professional, discreet, and reliable. The escorts in Ulhasnagar provided outstanding companionship with complete privacy.",
+        "datePublished": "2024-01-15"
     }
     </script>
     

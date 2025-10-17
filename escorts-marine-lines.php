@@ -135,7 +135,6 @@
     <link rel="alternate" hreflang="x-default" href="https://pinkbraescort.in/escorts-marine-lines.php">
     
     <!-- Additional SEO Links -->
-    <link rel="amphtml" href="https://pinkbraescort.in/amp/escorts-marine-lines.php">
     <link rel="preload" href="images/locations/mumbai/marine-lines-escorts.webp" as="image">
     <link rel="dns-prefetch" href="//api.whatsapp.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -154,8 +153,6 @@
     <!-- Geo-location for Local SEO -->
     <meta name="geo.region" content="IN-MH">
     <meta name="geo.placename" content="Marine Lines, Mumbai">
-    <meta name="geo.position" content="18.9405;72.8240">
-    <meta name="ICBM" content="18.9405, 72.8240">
     <meta name="location" content="Marine Lines, Mumbai, Maharashtra, India">
     
     <!-- Additional LSEO Signals -->
@@ -664,7 +661,16 @@
         "@type": "Review",
         "itemReviewed": {
             "@type": "Service",
-            "name": "Escorts In Marine Lines"
+            "name": "Escorts In Marine Lines",
+            "description": "Premium escort services in Marine Lines offering elite companionship with verified escorts and complete discretion. Available 24/7 for all Marine Lines railway station area.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Pink Bra Escorts - Escorts In Marine Lines"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Marine Lines"
+            }
         },
         "reviewRating": {
             "@type": "Rating",
@@ -675,6 +681,7 @@
             "@type": "Person",
             "name": "Verified Client"
         },
+        "datePublished": "2024-01-15",
         "reviewBody": "Exceptional escort service in Marine Lines. Professional, discreet, and reliable. The escorts in Marine Lines provided outstanding companionship with complete privacy."
     }
     </script>
