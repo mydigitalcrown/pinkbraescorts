@@ -77,7 +77,9 @@ When creating new location pages:
 - **Recent fixes**: 8 pages fixed in Oct 2025 batch (see `BATCH_FIX_COMPLETE_REPORT.md`)
 - **Remaining work**: ~290+ location pages still need same schema fixes
 - **Testing**: Always validate at `search.google.com/test/rich-results` before deployment
-- **Reference template**: `escorts-malad.php` is the gold standard with all fixes applied
+- **Reference templates**: 
+  - `call-girls-palghar.php` - Gold standard with correct favicon structure (no leading slashes)
+  - `escorts-malad.php` - Has schema fixes but OLD favicon structure (needs updating)
 
 ## Critical Development Patterns
 
@@ -271,8 +273,9 @@ Performance headers already configured:
 
 ### Task: Add New Location Page
 ```bash
-# 1. Copy template (use escorts-malad.php as the gold standard)
-cp escorts-malad.php escorts-newarea.php
+# 1. Copy template (use call-girls-palghar.php as the gold standard for favicon structure)
+# NOTE: escorts-malad.php has schema fixes but OLD favicon structure - use palghar instead
+cp call-girls-palghar.php call-girls-newarea.php
 
 # 2. Find-replace (case-sensitive)
 sed -i '' 's/Malad/Newarea/g' escorts-newarea.php
